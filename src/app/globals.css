@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f7f5f2;
   --foreground: #171717;
+
+  --healthcare-primary: 25 25% 45%;
+  --healthcare-secondary: 35 35% 85%;
+  --healthcare-accent: 95 20% 70%;
+  --healthcare-warm: 25 40% 82%;
 }
 
 @theme inline {
@@ -10,6 +15,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Healthcare color palette */
+  --color-healthcare-primary: hsl(var(--healthcare-primary));
+  --color-healthcare-secondary: hsl(var(--healthcare-secondary));
+  --color-healthcare-accent: hsl(var(--healthcare-accent));
+  --color-healthcare-warm: hsl(var(--healthcare-warm));
 }
 
 @media (prefers-color-scheme: dark) {
