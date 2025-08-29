@@ -1,37 +1,180 @@
 @import "tailwindcss";
 
+/* Define tokens in :root (default light mode) */
 :root {
-  --background: #f7f5f2;
-  --foreground: #171717;
+  /* Earth-tone nude healthcare palette */
+  --background: 35 25% 96%;
+  --foreground: 25 15% 15%;
 
+  --card: 35 20% 98%;
+  --card-foreground: 25 15% 15%;
+
+  --popover: 35 20% 98%;
+  --popover-foreground: 25 15% 15%;
+
+  /* Primary: Warm taupe for trust and professionalism */
+  --primary: 25 20% 35%;
+  --primary-foreground: 35 25% 96%;
+
+  /* Secondary: Soft beige for warmth */
+  --secondary: 35 30% 88%;
+  --secondary-foreground: 25 20% 25%;
+
+  /* Muted */
+  --muted: 35 15% 92%;
+  --muted-foreground: 25 12% 55%;
+
+  /* Accent */
+  --accent: 95 15% 75%;
+  --accent-foreground: 25 20% 25%;
+
+  /* Healthcare accent colors */
   --healthcare-primary: 25 25% 45%;
   --healthcare-secondary: 35 35% 85%;
   --healthcare-accent: 95 20% 70%;
   --healthcare-warm: 25 40% 82%;
+
+  /* Utility */
+  --success: 95 25% 55%;
+  --success-foreground: 35 25% 96%;
+  --destructive: 0 65% 60%;
+  --destructive-foreground: 35 25% 96%;
+
+  --border: 35 20% 88%;
+  --input: 35 20% 90%;
+  --ring: 25 20% 35%;
+
+  --radius: 0.5rem;
+
+  /* Sidebar */
+  --sidebar-background: 0 0% 98%;
+  --sidebar-foreground: 240 5.3% 26.1%;
+  --sidebar-primary: 240 5.9% 10%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 240 4.8% 95.9%;
+  --sidebar-accent-foreground: 240 5.9% 10%;
+  --sidebar-border: 220 13% 91%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
 }
 
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 25 15% 8%;
+    --foreground: 35 25% 95%;
+
+    --card: 25 15% 10%;
+    --card-foreground: 35 25% 95%;
+
+    --popover: 25 15% 10%;
+    --popover-foreground: 35 25% 95%;
+
+    --primary: 35 25% 88%;
+    --primary-foreground: 25 20% 15%;
+
+    --secondary: 25 10% 18%;
+    --secondary-foreground: 35 25% 95%;
+
+    --muted: 25 10% 16%;
+    --muted-foreground: 35 15% 70%;
+
+    --accent: 95 10% 25%;
+    --accent-foreground: 35 25% 95%;
+
+    --healthcare-primary: 35 20% 75%;
+    --healthcare-secondary: 25 15% 20%;
+    --healthcare-accent: 95 15% 35%;
+    --healthcare-warm: 25 30% 25%;
+
+    --success: 95 20% 45%;
+    --success-foreground: 35 25% 95%;
+    --destructive: 0 55% 55%;
+    --destructive-foreground: 35 25% 95%;
+
+    --border: 25 10% 18%;
+    --input: 25 10% 18%;
+    --ring: 35 20% 75%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+/* Tailwind 4 @theme inline mapping */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  
-  /* Healthcare color palette */
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
   --color-healthcare-primary: hsl(var(--healthcare-primary));
   --color-healthcare-secondary: hsl(var(--healthcare-secondary));
   --color-healthcare-accent: hsl(var(--healthcare-accent));
   --color-healthcare-warm: hsl(var(--healthcare-warm));
+  --color-success: hsl(var(--success));
+  --color-success-foreground: hsl(var(--success-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius: var(--radius);
+  --color-sidebar-background: hsl(var(--sidebar-background));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Base styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Healthcare-specific utility classes */
+.healthcare-gradient {
+  background: linear-gradient(
+    135deg,
+    hsl(var(--healthcare-warm)),
+    hsl(var(--healthcare-secondary))
+  );
+}
+
+.healthcare-texture {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(255, 255, 255, 0.15) 1px,
+    transparent 0
+  );
+  background-size: 20px 20px;
+}
+
+.rounded-healthcare {
+  border-radius: 1.5rem;
+}
+
+.shadow-healthcare {
+  box-shadow: 0 10px 30px -5px hsl(var(--healthcare-primary) / 0.1);
 }

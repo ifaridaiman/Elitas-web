@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import Button from "../ui/Button";
 
 interface NavigationItem {
@@ -54,16 +55,24 @@ const Navbar: React.FC<NavbarProps> = ({
   },
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const isActive = (href: string) => {
+    if (href === "/") {
+      return pathname === "/";
+    }
+    return pathname.startsWith(href);
   };
 
   return (
     <nav
       className={`bg-white shadow-healthcare border-b border-healthcare sticky top-0 z-50 ${className}`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo and Title */}
           <div className="flex items-center justify-center space-x-3">
@@ -97,16 +106,29 @@ const Navbar: React.FC<NavbarProps> = ({
           <div className="flex justify-between items-center gap-8"> 
             {/* Desktop Navigation Menu */}
             <div className="hidden md:flex items-center space-x-8">
-              {navigationItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-healthcare-primary hover:text-healthcare-accent transition-colors duration-200 font-medium relative group"
-                >
-                  {item.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-healthcare-accent transition-all duration-200 group-hover:w-full"></span>
-                </Link>
-              ))}
+              {navigationItems.map((item) => {
+                const active = isActive(item.href);
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`transition-colors duration-200 font-medium relative group ${
+                      active 
+                        ? "text-healthcare-primary" 
+                        : "text-healthcare-primary hover:text-healthcare-accent"
+                    }`}
+                  >
+                    {item.label}
+                    <span 
+                      className={`absolute -bottom-1 left-0 h-0.5 bg-healthcare-primary transition-all duration-200 ${
+                        active 
+                          ? "w-full" 
+                          : "w-0 group-hover:w-full group-hover:bg-healthcare-accent"
+                      }`}
+                    ></span>
+                  </Link>
+                );
+              })}
             </div>
 
             {/* CTA Button and Mobile Menu Toggle */}
@@ -170,16 +192,23 @@ const Navbar: React.FC<NavbarProps> = ({
         {/* Mobile Navigation Menu */}
         <div className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 bg-healthcare-warm/5 rounded-lg mt-2 border border-healthcare-secondary">
-            {navigationItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="block px-3 py-2 text-healthcare-primary hover:text-healthcare-accent hover:bg-healthcare-warm/10 rounded-md font-medium transition-colors duration-200"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {navigationItems.map((item) => {
+              const active = isActive(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`block px-3 py-2 rounded-md font-medium transition-colors duration-200 relative ${
+                    active
+                      ? "text-healthcare-primary bg-healthcare-warm/10 border-l-4 border-healthcare-primary"
+                      : "text-healthcare-primary hover:text-healthcare-accent hover:bg-healthcare-warm/10"
+                  }`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
             {/* Mobile CTA Button */}
             {ctaButton && (
               <div className="pt-2">
