@@ -1,0 +1,40 @@
+{
+    "services": [
+        {
+            "title": "General Health",
+            "description": "Comprehensive health checkups and family medicine services for all ages.",
+            "icon": "Heart",
+            "features": [
+                "Annual health screenings",
+                "Preventive care programs",
+                "Chronic disease management",
+                "Family medicine consultations"
+            ],
+            "href": "/services/general-health"
+        },
+        {
+            "title": "Aesthetic Treatments",
+            "description": "Advanced cosmetic procedures to help you look and feel your best.",
+            "icon": "Users",
+            "features": [
+                "Non-surgical face treatments",
+                "Skin rejuvenation therapy",
+                "Body contouring procedures",
+                "Professional consultations"
+            ],
+            "href": "/services/aesthetic-treatments"
+        },
+        {
+            "title": "Women's Wellness",
+            "description": "Specialized healthcare services designed for women at every life stage.",
+            "icon": "Shield",
+            "features": [
+                "Gynecological examinations",
+                "Pregnancy care & support",
+                "Hormone therapy consultations",
+                "Women's health screenings"
+            ],
+            "href": "/services/womens-wellness"
+        }
+    ]
+}

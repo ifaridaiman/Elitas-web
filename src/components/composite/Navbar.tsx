@@ -70,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <nav
-      className={`bg-white shadow-healthcare border-b border-healthcare sticky top-0 z-50 ${className}`}
+      className={`bg-white shadow-healthcare sticky top-0 z-50 ${className}`}
     >
       <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
