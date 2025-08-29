@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeaderNavbar from "@/components/container/HeaderNavbar";
 import Footer from "@/components/container/Footer";
+import ComingSoon from "@/components/container/ComingSoon";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,18 +25,28 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Toggle between coming soon mode and production mode
+  // Set to true to show coming soon page, false for normal site
+  const isComingSoonMode = process.env.NEXT_PUBLIC_COMING_SOON_MODE === 'true';
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <HeaderNavbar />  
-        <div className="flex-1">
-          <div className="min-h-screen">
-            {children}
-          </div>
-        </div>
-        <Footer />
+        {isComingSoonMode ? (
+          <ComingSoon />
+        ) : (
+          <>
+            <HeaderNavbar />  
+            <div className="flex-1">
+              <div className="min-h-screen">
+                {children}
+              </div>
+            </div>
+            <Footer />
+          </>
+        )}
       </body>
     </html>
   );
