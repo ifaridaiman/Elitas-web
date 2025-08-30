@@ -5,16 +5,20 @@
             "link": "/"
         },
         {
-            "title": "About",
-            "link": "/about"
+            "title": "About Us",
+            "link": "/about-us"
         },
         {
             "title": "Services",
             "link": "/services"
         },
         {
+            "title": "Branches",
+            "link": "/branches"
+        },
+        {
             "title": "Contact",
-            "link": "/contact"
+            "link": "/contact-us"
         }
     ],
     "footer": {
