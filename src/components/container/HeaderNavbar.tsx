@@ -20,10 +20,10 @@ const HeaderNavbar = () => {
           { label: "Contact", href: "/contact" },
         ]}
         ctaButton={{
-          title: "Book Now",
+          title: "Book Appointment",
           onClick: () => router.push("/booking"),
           color: "healthcare-primary",
-          size: "lg",
+          size: "sm",
           variant: "solid",
         }}
       />

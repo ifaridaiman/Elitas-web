@@ -70,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header
-      className={`bg-card shadow-healthcare border-b border-healthcare`}
+      className={`bg-card shadow-healthcare`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
@@ -112,9 +112,9 @@ const Navbar: React.FC<NavbarProps> = ({
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`transition-colors duration-200 font-medium relative group ${active
-                      ? "text-healthcare-primary"
-                      : "text-healthcare-primary hover:text-healthcare-accent"
+                    className={`text-sm font-medium transition-colors duration-200 ${active
+                      ? "text-healthcare-primary border-b-2 border-healthcare-primary pb-1"
+                      : "text-foreground hover:text-healthcare-primary"
                       }`}
                   >
                     {item.label}
@@ -133,14 +133,14 @@ const Navbar: React.FC<NavbarProps> = ({
             <div className="flex items-center space-x-4">
               {/* Desktop CTA Button */}
               {ctaButton && (
-                <div className="hidden md:block">
+                <div className="hidden md:m-0 md:block">
                   <Button
                     title={ctaButton.title}
                     onClick={ctaButton.onClick}
                     color={ctaButton.color || "healthcare-primary"}
-                    size={ctaButton.size || "md"}
+                    size={ctaButton.size || "sm"}
                     variant={ctaButton.variant || "solid"}
-                    className="shadow-md hover:shadow-lg transition-shadow"
+                    className="bg-healthcare-primary hover:bg-healthcare-primary/90 text-white rounded-md"
                   />
                 </div>
               )}
