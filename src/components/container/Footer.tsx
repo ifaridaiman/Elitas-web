@@ -3,8 +3,13 @@ import { MessageCircle, Phone, MapPin, Mail, Clock } from "lucide-react";
 import React from "react";
 import Link from "next/link";
 import Button from "../ui/Button";
+import globalData from "@/contents/global.json";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Footer = () => {
+
+    const router = useRouter();
     return (
         <footer className="bg-healthcare-primary text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -12,17 +17,16 @@ const Footer = () => {
                     {/* Clinic Info */}
                     <div className="space-y-4">
                         <div className="flex items-center space-x-3">
-                            <div className="w-8 h-8 bg-white rounded-healthcare flex items-center justify-center">
-                                <span className="text-healthcare-primary font-bold">E</span>
+                            <div className="w-auto h-auto bg-white rounded-healthcare flex items-center justify-center px-3 py-2 ">
+                                <Image src="/assets/logo.svg" width="30" height="30" alt="logo-elitas" />
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold">Elitas Clinic</h3>
-                                <p className="text-sm opacity-90">Your Health, Our Priority</p>
+                                <h3 className="text-lg font-bold">{globalData.footer.clinicInfo.name}</h3>
+                                <p className="text-sm opacity-90">{globalData.footer.clinicInfo.tagline}</p>
                             </div>
                         </div>
                         <p className="text-sm opacity-90 leading-relaxed">
-                            Providing reliable, patient-first healthcare with modern facilities
-                            and experienced medical professionals across multiple locations.
+                            {globalData.footer.clinicInfo.description}
                         </p>
                     </div>
 
@@ -30,10 +34,13 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">
-                            <li><Link href="/about-us" className="text-sm opacity-90 hover:opacity-100 transition-opacity">About Us</Link></li>
-                            <li><Link href="/services" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Our Services</Link></li>
-                            <li><Link href="/branches" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Find Locations</Link></li>
-                            <li><Link href="/contact-us" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Contact Us</Link></li>
+                            {globalData.footer.quickLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Link href={link.link} className="text-sm opacity-90 hover:opacity-100 transition-opacity">
+                                        {link.title}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
 
@@ -41,11 +48,13 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Our Services</h4>
                         <ul className="space-y-2">
-                            <li><Link href="/services/general-health" className="text-sm opacity-90 hover:opacity-100 transition-opacity">General Health</Link></li>
-                            <li><Link href="/services/aesthetic-treatments" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Aesthetic Treatments</Link></li>
-                            <li><Link href="/services/womens-wellness" className="text-sm opacity-90 hover:opacity-100 transition-opacity">{`Women's Wellness`}</Link></li>
-                            <li><Link href="/services/health-screening" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Health Screening</Link></li>
-                            <li><Link href="/services/dermatology" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Dermatology</Link></li>
+                            {globalData.footer.services.map((service, index) => (
+                                <li key={index}>
+                                    <Link href={service.link} className="text-sm opacity-90 hover:opacity-100 transition-opacity">
+                                        {service.title}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
 
@@ -55,28 +64,28 @@ const Footer = () => {
                         <div className="space-y-3">
                             <div className="flex items-center space-x-3">
                                 <Phone className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">+1 (555) 123-4567</span>
+                                <span className="text-sm">{globalData.footer.contactInfo.phone}</span>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Mail className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">info@elitasclinic.com</span>
+                                <span className="text-sm">{globalData.footer.contactInfo.email}</span>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <MapPin className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">Multiple Locations</span>
+                                <span className="text-sm">{globalData.footer.contactInfo.address}</span>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Clock className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">Mon-Fri: 8AM-6PM</span>
+                                <span className="text-sm">{globalData.footer.contactInfo.hours}</span>
                             </div>
                         </div>
 
                         <div className="mt-6">
                             <Button
                                 title="Book an Appointment"
-                                onClick={() => { }}
+                                onClick={() => { router.push('/contact-us') }}
                                 size="lg"
-                                className="bg-white text-healthcare-primary hover:bg-gray-100 rounded-healthcare"
+                                className="bg-healthcare-warm text-healthcare-primary hover:bg-gray-100 rounded-healthcare"
                                 rightIcon={<MessageCircle className="h-5 w-5" />}
                             />
 
@@ -86,7 +95,13 @@ const Footer = () => {
 
                 <div className="border-t border-white/20 mt-8 pt-8 text-center">
                     <p className="text-sm opacity-90">
-                        © {new Date().getFullYear()} Elitas Clinic. All rights reserved. | <Link href="/privacy-policy" className="text-white hover:underline">Privacy Policy</Link> | <Link href="/terms-of-service" className="text-white hover:underline">Terms of Service</Link>
+                        © {new Date().getFullYear()} {globalData.footer.clinicInfo.name}. All rights reserved. | 
+                        {globalData.footer.legalLinks.map((link, index) => (
+                            <span key={index}>
+                                <Link href={link.link} className="text-white hover:underline">{link.title}</Link>
+                                {index < globalData.footer.legalLinks.length - 1 && ' | '}
+                            </span>
+                        ))}
                     </p>
                 </div>
             </div>

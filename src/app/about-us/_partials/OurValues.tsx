@@ -1,9 +1,10 @@
 import React from "react";
+import { useServiceIcon } from "@/hooks/useServiceIcon";
 
 type Value = {
     title: string;
     description: string;
-    icon: React.ReactNode;
+    icon: string;
 }
 
 interface OurValuesProps {
@@ -11,6 +12,8 @@ interface OurValuesProps {
 }
 
 const OurValues = ({ values }: OurValuesProps) => {
+    const { getIcon } = useServiceIcon();
+    
     return (
         <section className="py-20 bg-healthcare-warm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,8 +27,8 @@ const OurValues = ({ values }: OurValuesProps) => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {values.map((value, index) => (
                         <div key={index} className="text-center">
-                            <div className="w-20 h-20 bg-healthcare-primary rounded-healthcare flex items-center justify-center mx-auto mb-6">
-                                {value.icon}
+                            <div className="w-20 h-20 bg-healthcare-primary rounded-healthcare flex items-center justify-center mx-auto mb-6 text-white">
+                                {getIcon(value.icon, "h-10 w-10")}
                             </div>
                             <h3 className="text-2xl font-bold text-healthcare-primary mb-4">{value.title}</h3>
                             <p className="text-foreground/80 leading-relaxed">{value.description}</p>

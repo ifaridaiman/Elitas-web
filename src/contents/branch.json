@@ -5,11 +5,11 @@
             "id": 1,
             "name": "Elitas Clinic - CIMB Hub",
             "address": "L2-O3A, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
-            "phone": "+1 (555) 234-5678",
+            "phone": "+601113001410",
             "email": "cimbhub@elitasclinic.com",
             "hours": {
-                "weekdays": "Monday - Friday: 8:30 AM - 5:30 PM",
-                "saturday": "Saturday: 10:00 AM - 3:00 PM",
+                "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
+                "saturday": "Saturday: Closed",
                 "sunday": "Sunday: Closed"
             },
             "services": [
@@ -23,12 +23,12 @@
             "id": 2,
             "name": "Elitas Clinic - Bandar Sri Permaisuri",
             "address": "38-G, Jalan Sri Permaisuri 9, Bandar Sri Permaisuri, 56000 Cheras, Wilayah Persekutuan Kuala Lumpur",
-            "phone": "+1 (555) 123-4567",
-            "email": "sripermaisuri@elitasclinic.com",
+            "phone": "+60128820937",
+            "email": "bandarsripermaisuri@elitasclinic.com",
             "hours": {
-                "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
-                "saturday": "Saturday: 9:00 AM - 4:00 PM",
-                "sunday": "Sunday: Closed"
+                "weekdays": "Monday - Friday: 8:00 AM - 10:00 PM",
+                "saturday": "Saturday: 8:00 AM - 10:00 PM",
+                "sunday": "Sunday: 8:00 AM - 10:00 PM"
             },
             "services": [
                 "General Health",

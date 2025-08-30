@@ -20,7 +20,7 @@ const HeaderNavbar = () => {
         }))}
         ctaButton={{
           title: "Book Appointment",
-          onClick: () => router.push("/booking"),
+          onClick: () => router.push("/contact-us"),
           color: "healthcare-primary",
           size: "sm",
           variant: "solid",

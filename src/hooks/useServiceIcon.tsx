@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Users, Shield, Stethoscope, Search, Baby, Briefcase, Scissors, Plane } from 'lucide-react';
+import { Heart, Users, Shield, Stethoscope, Search, Baby, Briefcase, Scissors, Plane, Lightbulb } from 'lucide-react';
 
 export const useServiceIcon = () => {
   const getIcon = (iconName: string, className: string = "h-8 w-8") => {
@@ -12,7 +12,8 @@ export const useServiceIcon = () => {
       Baby: <Baby className={className} />,
       Briefcase: <Briefcase className={className} />,
       Scissors: <Scissors className={className} />,
-      Plane: <Plane className={className} />
+      Plane: <Plane className={className} />,
+      Lightbulb: <Lightbulb className={className} />
     };
     return iconMap[iconName] || <Heart className={className} />;
   };

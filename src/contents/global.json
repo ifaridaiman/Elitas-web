@@ -22,6 +22,67 @@
         }
     ],
     "footer": {
-        "copyright": "Copyright © 2023 Elitas Clinic. All rights reserved."
+        "copyright": "Copyright © 2023 Elitas Clinic. All rights reserved.",
+        "clinicInfo": {
+            "name": "Elitas Clinic",
+            "tagline": "Your Health, Our Priority",
+            "description": "Providing reliable, patient-first healthcare with modern facilities and experienced medical professionals across multiple locations."
+        },
+        "quickLinks": [
+            {
+                "title": "About Us",
+                "link": "/about-us"
+            },
+            {
+                "title": "Our Services",
+                "link": "/services"
+            },
+            {
+                "title": "Find Locations",
+                "link": "/branches"
+            },
+            {
+                "title": "Contact Us",
+                "link": "/contact-us"
+            }
+        ],
+        "services": [
+            {
+                "title": "Primary Care Services",
+                "link": "/services"
+            },
+            {
+                "title": "Reproductive and Family Health",
+                "link": "/services"
+            },
+            {
+                "title": "Occupational Health Services",
+                "link": "/services"
+            },
+            {
+                "title": "Surgical Services",
+                "link": "/services"
+            },
+            {
+                "title": "Travel Health Services",
+                "link": "/services"
+            }
+        ],
+        "contactInfo": {
+            "phone": "+1 (555) 123-4567",
+            "email": "info@elitasclinic.com",
+            "address": "Multiple Locations",
+            "hours": "Mon-Fri: 8AM-6PM"
+        },
+        "legalLinks": [
+            {
+                "title": "Privacy Policy",
+                "link": "/privacy-policy"
+            },
+            {
+                "title": "Terms of Service",
+                "link": "/terms-of-service"
+            }
+        ]
     }
 }

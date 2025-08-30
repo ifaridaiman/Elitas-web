@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { useServiceIcon } from './hooks/useServiceIcon';
+import { useServiceIcon } from '../../hooks/useServiceIcon';
 
 interface ServiceCardProps {
   title: string;
