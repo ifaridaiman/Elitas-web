@@ -1,0 +1,57 @@
+{
+    "branches": [
+        
+        {
+            "id": 1,
+            "name": "Elitas Clinic - CIMB Hub",
+            "address": "L2-O3A, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+            "phone": "+1 (555) 234-5678",
+            "email": "cimbhub@elitasclinic.com",
+            "hours": {
+                "weekdays": "Monday - Friday: 8:30 AM - 5:30 PM",
+                "saturday": "Saturday: 10:00 AM - 3:00 PM",
+                "sunday": "Sunday: Closed"
+            },
+            "services": [
+                "Aesthetic Medicine",
+                "Dermatology",
+                "General Health"
+            ],
+            "isMain": true
+        },
+        {
+            "id": 2,
+            "name": "Elitas Clinic - Bandar Sri Permaisuri",
+            "address": "38-G, Jalan Sri Permaisuri 9, Bandar Sri Permaisuri, 56000 Cheras, Wilayah Persekutuan Kuala Lumpur",
+            "phone": "+1 (555) 123-4567",
+            "email": "sripermaisuri@elitasclinic.com",
+            "hours": {
+                "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
+                "saturday": "Saturday: 9:00 AM - 4:00 PM",
+                "sunday": "Sunday: Closed"
+            },
+            "services": [
+                "General Health",
+                "Health Screening",
+                "Women's Wellness"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Elitas Clinic - Menara Binjai",
+            "address": "Unit 5-02, Menara Binjai, No.2 Jalan Binjai, 50450 Kuala Lumpur, Wilayan Persekutuan, Kuala Lumpur",
+            "phone": "+1 (555) 123-4567",
+            "email": "menarabinjai@elitasclinic.com",
+            "hours": {
+                "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
+                "saturday": "Saturday: 9:00 AM - 4:00 PM",
+                "sunday": "Sunday: Closed"
+            },
+            "services": [
+                "General Health",
+                "Health Screening",
+                "Women's Wellness"
+            ]
+        }
+    ]
+}

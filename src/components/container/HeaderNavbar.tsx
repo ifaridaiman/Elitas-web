@@ -9,7 +9,7 @@ const HeaderNavbar = () => {
   const router = useRouter();
   return (
     <>
-    <Header  />
+      <Header />
       <Navbar
         logoUrl="/assets/logo.svg"
         title="Elitas Clinic"
