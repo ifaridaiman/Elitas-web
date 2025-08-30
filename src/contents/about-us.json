@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "icon": "Heart",
+            "title": "Trust",
+            "description": "Building lasting relationships through honest communication and reliable care."
+        },
+        {
+            "icon": "Users",
+            "title": "Compassion",
+            "description": "Treating every patient with empathy, understanding, and genuine care."
+        },
+        {
+            "icon": "Lightbulb",
+            "title": "Innovation",
+            "description": "Embracing advanced medical technologies and treatments for better outcomes."
+        }
+    ],
+    "doctors": [
+        {
+            "name": "Dr. John Doe",
+            "specialty": "General Medicine",
+            "qualifications": "MD, DDS",
+            "bio": "A seasoned general practitioner with over 15 years of experience in providing comprehensive healthcare services. Known for his patient-centered approach and commitment to patient well-being.",
+            "image": "/images/doctors/john-doe.jpg"
+        }
+    ],
+    "whychooseus": [
+        {
+            "reason": "State-of-the-art medical facilities and equipment"
+        },
+        {
+            "reason": "Experienced doctors with specialized certifications"
+        },
+        {
+            "reason": "Comprehensive range of medical and aesthetic services"
+        },
+        {
+            "reason": "Patient-centered approach to healthcare delivery"
+        },
+        {
+            "reason": "Multiple convenient locations with flexible hours"
+        },
+        {
+            "reason": "Advanced electronic health records for seamless care"
+        }
+    ]
+}
