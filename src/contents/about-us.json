@@ -2,6 +2,17 @@
     "title": "About Us",
     "description": "Dedicated to providing exceptional healthcare services with a patient-first approach, modern facilities, and experienced medical professionals who care about your wellbeing.",
     "supportiveStaffDescription": "Behind every great doctor is an exceptional team. Our nurses, administrative staff, and support personnel work together to ensure your visit is comfortable, efficient, and focused on your needs. From scheduling appointments to providing post-treatment care instructions, our team is here to support you every step of the way.",
+    "historyandmission": {
+        "historyStory": [
+            {
+                "para" : "Founded over a decade ago, Elitas Clinic began with a simple yet powerful vision: to make quality healthcare accessible and personalized for every patient. What started as a single clinic has grown into a network of five modern healthcare facilities."
+            },
+            {
+                "para" : "Over the years, we have expanded our reach to include a diverse range of services, from routine checkups to specialized treatments. Our mission is to provide high-quality, patient-centered care that addresses the unique needs of each individual."
+            }
+        ],
+    "missionStatement": "Providing reliable, patient-first care by combining medical expertise with genuine compassion. We strive to be your trusted healthcare partner, supporting your wellness journey with personalized attention and advanced medical solutions."
+    },
     "values": [
         {
             "icon": "Heart",

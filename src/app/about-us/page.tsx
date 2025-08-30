@@ -2,7 +2,7 @@ import HeaderPage from "@/components/ui/HeaderPage";
 import React from "react";
 import HistoryMission from "./_partials/HistoryMission";
 import OurValues from "./_partials/OurValues";
-import { title, description, values, doctors,whychooseus, supportiveStaffDescription } from "@/contents/about-us.json";
+import { title, description, values, doctors,whychooseus, supportiveStaffDescription, historyandmission } from "@/contents/about-us.json";
 import { Heart, Users, Lightbulb } from "lucide-react";
 import MeetDoctor from "./_partials/MeetDoctor";
 import ChooseUs from "./_partials/ChooseUs";
@@ -15,7 +15,7 @@ const AboutUs = () => {
         title={title}
         description={description}
       />
-      <HistoryMission />
+      <HistoryMission historyandmission={historyandmission} />
       <OurValues values={values} />
       <MeetDoctor doctors={doctors} />
       <SupportiveStaff description={supportiveStaffDescription} />
