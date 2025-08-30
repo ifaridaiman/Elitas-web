@@ -65,7 +65,7 @@ const ContactUs = () => {
                 <div>
                   <h3 className="font-semibold text-healthcare-primary mb-1">Email</h3>
                   <p className="text-foreground/80">info@elitasclinic.com</p>
-                  <p className="text-sm text-foreground/60">We'll respond within 24 hours</p>
+                  <p className="text-sm text-foreground/60">{`We'll respond within 24 hours`}</p>
                 </div>
               </div>
 
