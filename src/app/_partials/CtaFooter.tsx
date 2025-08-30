@@ -14,8 +14,8 @@ const CtaFooter = () => {
                     Ready to Take Care of Your Health?
                 </h2>
                 <p className="text-xl opacity-90 mb-8 leading-relaxed">
-                    Don't wait to prioritize your wellbeing. Book an appointment today or contact us
-                    for more information about our comprehensive healthcare services.
+                    {`Don't wait to prioritize your wellbeing. Book an appointment today or contact us
+                    for more information about our comprehensive healthcare services.`}
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">

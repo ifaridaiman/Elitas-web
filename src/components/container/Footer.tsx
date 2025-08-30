@@ -30,10 +30,10 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">
-                            <li><Link href="/about" className="text-sm opacity-90 hover:opacity-100 transition-opacity">About Us</Link></li>
+                            <li><Link href="/about-us" className="text-sm opacity-90 hover:opacity-100 transition-opacity">About Us</Link></li>
                             <li><Link href="/services" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Our Services</Link></li>
                             <li><Link href="/branches" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Find Locations</Link></li>
-                            <li><Link href="/contact" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Contact Us</Link></li>
+                            <li><Link href="/contact-us" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Contact Us</Link></li>
                         </ul>
                     </div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li><Link href="/services/general-health" className="text-sm opacity-90 hover:opacity-100 transition-opacity">General Health</Link></li>
                             <li><Link href="/services/aesthetic-treatments" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Aesthetic Treatments</Link></li>
-                            <li><Link href="/services/womens-wellness" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Women's Wellness</Link></li>
+                            <li><Link href="/services/womens-wellness" className="text-sm opacity-90 hover:opacity-100 transition-opacity">{`Women's Wellness`}</Link></li>
                             <li><Link href="/services/health-screening" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Health Screening</Link></li>
                             <li><Link href="/services/dermatology" className="text-sm opacity-90 hover:opacity-100 transition-opacity">Dermatology</Link></li>
                         </ul>
@@ -86,7 +86,7 @@ const Footer = () => {
 
                 <div className="border-t border-white/20 mt-8 pt-8 text-center">
                     <p className="text-sm opacity-90">
-                        © {new Date().getFullYear()} Elitas Clinic. All rights reserved. | Privacy Policy | Terms of Service
+                        © {new Date().getFullYear()} Elitas Clinic. All rights reserved. | <Link href="/privacy-policy" className="text-white hover:underline">Privacy Policy</Link> | <Link href="/terms-of-service" className="text-white hover:underline">Terms of Service</Link>
                     </p>
                 </div>
             </div>

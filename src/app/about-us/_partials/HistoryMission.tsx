@@ -29,7 +29,7 @@ const HistoryMission = ({ historyandmission }: HistoryMissionProps) => {
                     <div className="bg-healthcare-secondary p-8 rounded-healthcare">
                         <h3 className="text-2xl font-bold text-healthcare-primary mb-4">Our Mission</h3>
                         <blockquote className="text-lg text-foreground/80 italic leading-relaxed">
-                            "{historyandmission.missionStatement}"
+                            {`${historyandmission.missionStatement}`}
                         </blockquote>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ interface ChooseUsProps {
     whyChooseUs: whyChooseUs[];
 }
 
-const ChooseUs = ({whyChooseUs}: ChooseUsProps) => {
+const ChooseUs = ({ whyChooseUs }: ChooseUsProps) => {
     return (
         <section className="py-20 bg-background">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,8 +16,8 @@ const ChooseUs = ({whyChooseUs}: ChooseUsProps) => {
                     <div>
                         <h2 className="text-4xl font-bold text-healthcare-primary mb-6">Why Choose Elitas Clinic?</h2>
                         <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-                            We're more than just a healthcare provider – we're your partners in wellness.
-                            Here's what sets us apart in delivering exceptional patient care.
+                            {`We're more than just a healthcare provider – we're your partners in wellness.
+                            Here's what sets us apart in delivering exceptional patient care.`}
                         </p>
                         <ul className="space-y-4">
                             {whyChooseUs.map((reason, index) => (
@@ -35,8 +35,7 @@ const ChooseUs = ({whyChooseUs}: ChooseUsProps) => {
                                 <h3 className="text-xl font-bold text-healthcare-primary">Quality Recognition</h3>
                             </div>
                             <p className="text-foreground/80">
-                                Accredited facilities meeting the highest standards of medical care and patient safety.
-                            </p>
+                                {`                                Accredited facilities meeting the highest standards of medical care and patient safety.`}                            </p>
                         </div>
                         <div className="bg-card border border-healthcare-secondary rounded-healthcare p-6">
                             <div className="flex items-center space-x-4 mb-4">
@@ -44,7 +43,7 @@ const ChooseUs = ({whyChooseUs}: ChooseUsProps) => {
                                 <h3 className="text-xl font-bold text-healthcare-primary">Patient-Centered Care</h3>
                             </div>
                             <p className="text-foreground/80">
-                                Every treatment plan is tailored to your individual needs, preferences, and health goals.
+                                {`Every treatment plan is tailored to your individual needs, preferences, and health goals.`}
                             </p>
                         </div>
                     </div>

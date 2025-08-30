@@ -35,7 +35,6 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({
-  className = "",
   logoUrl = "/assets/logo.svg",
   logoAlt = "Elitas Clinic Logo",
   title = "Elitas Clinic",

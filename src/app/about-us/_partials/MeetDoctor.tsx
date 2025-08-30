@@ -1,5 +1,5 @@
-import { type } from "os";
 import React from "react";
+import Image from "next/image";
 
 type Doctors = {
     name: string;
@@ -29,7 +29,7 @@ const MeetDoctor = ({ doctors }: MeetDoctorProps) => {
                         <div key={index} className="bg-card border border-healthcare-secondary rounded-healthcare p-6 text-center shadow-healthcare">
                             <div className="w-24 h-24 bg-healthcare-warm rounded-full flex items-center justify-center mx-auto mb-6">
                                 {doctor.image ? (
-                                    <img src={doctor.image} alt={doctor.name} className="w-full h-full object-cover rounded-full" />
+                                    <Image  src={doctor.image} alt={doctor.name} className="w-full h-full object-cover rounded-full" />
                                 ) : (
                                     <span className="text-3xl font-bold text-healthcare-primary">
                                         {doctor.name.split(' ').map(n => n[0]).join('')}
