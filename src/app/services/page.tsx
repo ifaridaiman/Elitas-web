@@ -4,7 +4,6 @@ import CtaFooter from "../_partials/CtaFooter";
 import ServeSOP from "./_partials/ServeSOP";
 import serviceData from "@/contents/services.json"
 import ServiceProvided from "./_partials/ServiceProvided";
-import AdditionalServices from "./_partials/AdditionalServices";
 
 const ServicesPage = () => {
   return (

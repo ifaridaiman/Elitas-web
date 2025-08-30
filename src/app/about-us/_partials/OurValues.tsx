@@ -28,7 +28,7 @@ const OurValues = ({ values }: OurValuesProps) => {
                     {values.map((value, index) => (
                         <div key={index} className="text-center">
                             <div className="w-20 h-20 bg-healthcare-primary rounded-healthcare flex items-center justify-center mx-auto mb-6 text-white">
-                                {getIcon(value.icon, "h-10 w-10")}
+                                {React.createElement(getIcon(value.icon), { className: "h-10 w-10" })}
                             </div>
                             <h3 className="text-2xl font-bold text-healthcare-primary mb-4">{value.title}</h3>
                             <p className="text-foreground/80 leading-relaxed">{value.description}</p>

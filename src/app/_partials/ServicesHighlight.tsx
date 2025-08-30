@@ -4,9 +4,20 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Button from "../../components/ui/Button";
 import ServiceCard from "../../components/ui/ServiceCard";
-import topServicesData from "@/contents/homepage.json"
 
-const ServicesHighlight = () => {
+interface Service {
+  title: string;
+  description: string;
+  icon?: string;
+  features: string[];
+  href?: string;
+}
+
+interface ServicesHighlightProps {
+  services: Service[];
+}
+
+const ServicesHighlight = ({ services }: ServicesHighlightProps) => {
   return (
     <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,7 +32,7 @@ const ServicesHighlight = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {topServicesData.services.map((service, index) => (
+          {services.map((service: Service, index: number) => (
             <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
               <ServiceCard {...service} />
             </div>

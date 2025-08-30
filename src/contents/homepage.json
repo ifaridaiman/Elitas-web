@@ -28,5 +28,28 @@
                 "Maternal and Child Health Check-ups"
             ]
         }
-    ]
+    ],
+    "branchLocator": {
+        "title": "Find Our Nearest Clinic",
+        "description": "With multiple convenient locations, quality healthcare is always within reach.",
+        "features": [
+            {
+                "title": "3 Locations",
+                "description": "Strategically located for easy access",
+                "icon": "MapPin"
+            },
+            {
+                "title": "Flexible Hours",
+                "description": "Extended hours to fit your schedule",
+                "icon": "Calendar"
+            },
+            {
+                "title": "Easy Booking",
+                "description": "Quick appointments via phone or online",
+                "icon": "Phone"
+            }
+        ],
+        "buttonText": "View All Locations",
+        "buttonLink": "/branches"
+    }
 }
