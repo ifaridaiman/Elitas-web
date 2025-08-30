@@ -5,7 +5,7 @@ interface Services {
     description: string;
     icon?: string;
     features: string[];
-    href: string;
+    href?: string;
 }
 
 interface ServiceCardProps {

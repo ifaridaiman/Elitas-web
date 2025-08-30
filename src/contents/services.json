@@ -3,60 +3,54 @@
         {
             "title": "Primary Care Services",
             "description": "Comprehensive health assessments and preventive screenings to detect potential issues early and maintain optimal health",
-            "icon": "",
+            "icon": "Stethoscope",
             "features": [
                 "General Health Check-ups and Treatment",
                 "Blood and Urine Tests",
                 "Heart Checks and ECG"
-            ],
-            "href": "/#"
+            ]
         },
         {
             "title": "Specialized Health Screenings",
             "description": "Targeted diagnostic examinations focusing on early detection of specific diseases and conditions in high-risk populations",
-            "icon": "",
+            "icon": "Search",
             "features": [
                 "Cancer Screening",
                 "Food Handler Health Checks"
-            ],
-            "href": "/#"
+            ]
         },
         {
             "title": "Reproductive and Family Health",
             "description": "Complete healthcare services supporting fertility, pregnancy, family planning decisions, and maternal-child wellness throughout all life stages",
-            "icon": "",
+            "icon": "Baby",
             "features": [
                 "Fertility Issues and Family Planning",
                 "Maternal and Child Health Check-ups"
-            ],
-            "href": "/#"
+            ]
         },
         {
             "title": "Occupational Health Services",
             "description": "Professional medical evaluations ensuring workplace safety compliance and fitness for duty in specialized employment sectors",
-            "icon": "",
+            "icon": "Briefcase",
             "features": [
                 "Income Checks for GDL, PSV, and E-hailing"
-            ],
-            "href": "/#"
+            ]
         },
         {
             "title": "Surgical Services",
             "description": "Minor outpatient surgical procedures performed with precision and safety protocols for optimal patient outcomes and recovery",
-            "icon": "",
+            "icon": "Scissors",
             "features": [
                 "Minor Surgery"
-            ],
-            "href": "/#"
+            ]
         },
         {
             "title": "Travel Health Services",
             "description": "Specialized medical examinations and vaccinations required for international travel and religious pilgrimage",
-            "icon": "",
+            "icon": "Plane",
             "features": [
                 "Hajj and Umrah Services"
-            ],
-            "href": "/#"
+            ]
         }
     ]
 }

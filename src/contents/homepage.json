@@ -1,40 +1,32 @@
 {
     "services": [
         {
-            "title": "General Health",
-            "description": "Comprehensive health checkups and family medicine services for all ages.",
-            "icon": "Heart",
+            "title": "Primary Care Services",
+            "description": "Comprehensive health assessments and preventive screenings to detect potential issues early and maintain optimal health",
+            "icon": "Stethoscope",
             "features": [
-                "Annual health screenings",
-                "Preventive care programs",
-                "Chronic disease management",
-                "Family medicine consultations"
-            ],
-            "href": "/services/general-health"
+                "General Health Check-ups and Treatment",
+                "Blood and Urine Tests",
+                "Heart Checks and ECG"
+            ]
         },
         {
-            "title": "Aesthetic Treatments",
-            "description": "Advanced cosmetic procedures to help you look and feel your best.",
-            "icon": "Users",
+            "title": "Specialized Health Screenings",
+            "description": "Targeted diagnostic examinations focusing on early detection of specific diseases and conditions in high-risk populations",
+            "icon": "Search",
             "features": [
-                "Non-surgical face treatments",
-                "Skin rejuvenation therapy",
-                "Body contouring procedures",
-                "Professional consultations"
-            ],
-            "href": "/services/aesthetic-treatments"
+                "Cancer Screening",
+                "Food Handler Health Checks"
+            ]
         },
         {
-            "title": "Women's Wellness",
-            "description": "Specialized healthcare services designed for women at every life stage.",
-            "icon": "Shield",
+            "title": "Reproductive and Family Health",
+            "description": "Complete healthcare services supporting fertility, pregnancy, family planning decisions, and maternal-child wellness throughout all life stages",
+            "icon": "Baby",
             "features": [
-                "Gynecological examinations",
-                "Pregnancy care & support",
-                "Hormone therapy consultations",
-                "Women's health screenings"
-            ],
-            "href": "/services/womens-wellness"
+                "Fertility Issues and Family Planning",
+                "Maternal and Child Health Check-ups"
+            ]
         }
     ]
 }

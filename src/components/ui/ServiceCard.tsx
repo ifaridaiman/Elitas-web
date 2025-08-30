@@ -1,13 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, Heart, Users, Shield } from 'lucide-react';
+import { ArrowRight, Heart, Users, Shield, Stethoscope, Search, Baby, Briefcase, Scissors, Plane } from 'lucide-react';
 
 interface ServiceCardProps {
   title: string;
   description: string;
   icon?: string;
   features: string[];
-  href: string;
+  href?: string;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -22,7 +22,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     const iconMap: { [key: string]: React.ReactNode } = {
       Heart: <Heart className="h-8 w-8" />,
       Users: <Users className="h-8 w-8" />,
-      Shield: <Shield className="h-8 w-8" />
+      Shield: <Shield className="h-8 w-8" />,
+      Stethoscope: <Stethoscope className="h-8 w-8" />,
+      Search: <Search className="h-8 w-8" />,
+      Baby: <Baby className="h-8 w-8" />,
+      Briefcase: <Briefcase className="h-8 w-8" />,
+      Scissors: <Scissors className="h-8 w-8" />,
+      Plane: <Plane className="h-8 w-8" />
     };
     return iconMap[iconName] || <Heart className="h-8 w-8" />;
   };
@@ -33,17 +39,17 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       <div className="w-16 h-16 bg-healthcare-primary rounded-healthcare flex items-center justify-center mb-4 text-white">
         {icon && getIcon(icon)}
       </div>
-      
+
       {/* Title */}
       <h3 className="text-xl font-semibold text-healthcare-primary mb-3">
         {title}
       </h3>
-      
+
       {/* Description */}
       <p className="text-foreground/70 mb-4 flex-grow">
         {description}
       </p>
-      
+
       {/* Features */}
       <ul className="space-y-2 mb-6">
         {features.map((feature, index) => (
@@ -53,15 +59,21 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           </li>
         ))}
       </ul>
-      
+
       {/* Learn More Link */}
-      <Link 
-        href={href}
-        className="inline-flex items-center text-healthcare-primary hover:text-healthcare-accent transition-colors duration-200 font-medium mt-auto"
-      >
-        Learn More
-        <ArrowRight className="h-4 w-4 ml-2" />
-      </Link>
+      {
+        href && (
+
+          <Link
+            href={href}
+            className="inline-flex items-center text-healthcare-primary hover:text-healthcare-accent transition-colors duration-200 font-medium mt-auto"
+          >
+            Learn More
+            <ArrowRight className="h-4 w-4 ml-2" />
+          </Link>
+        )
+      }
+
     </div>
   );
 };

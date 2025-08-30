@@ -39,7 +39,7 @@ const HeroBanner = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact">
+              <Link href="/contact-us">
                 <Button
                   title="Book Appointment"
                   onClick={() => {}}
@@ -50,7 +50,7 @@ const HeroBanner = () => {
                   rightIcon={<ArrowRight className="h-5 w-5 ml-2" />}
                 />
               </Link>
-              <Link href="/branches">
+              <Link href="https://maps.google.com?q=Elitas+Clinic" target="_blank">
                 <Button
                   title="Find Our Clinics"
                   onClick={() => {}}
@@ -75,7 +75,7 @@ const HeroBanner = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-healthcare-primary">
-                  5
+                  3
                 </div>
                 <div className="text-sm text-foreground/70">
                   Clinic Locations

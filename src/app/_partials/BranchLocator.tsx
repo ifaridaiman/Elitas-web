@@ -29,7 +29,7 @@ const BranchLocator = () => {
               <MapPin className="h-8 w-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-healthcare-primary mb-2">
-              5 Locations
+              3 Locations
             </h3>
             <p className="text-foreground/70">
               Strategically located for easy access
