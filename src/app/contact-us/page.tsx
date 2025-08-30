@@ -76,7 +76,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-healthcare-primary mb-1">Main Location</h3>
-                  <p className="text-foreground/80">L2-O3A, CIMB Hub, 26, Jln Sultan Ismail, </p>
+                  <p className="text-foreground/80">L2-O3A, CIMB Hub, 26, Jln Sultan Ismail,</p>
                   <p className="text-foreground/80">Kuala Lumpur, 50250 Kuala Lumpur</p>
                   <p className="text-foreground/80">Kuala Lumpur, Malaysia</p>
                 </div>
