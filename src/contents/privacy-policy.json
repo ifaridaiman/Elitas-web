@@ -1,0 +1,115 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "[Insert Date]",
+  "introduction": "At Elitas Clinic, your privacy is very important to us. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our services, visit our clinic, or access our website.",
+  "sections": [
+    {
+      "id": "information-we-collect",
+      "title": "1. Information We Collect",
+      "content": "We may collect the following types of information:",
+      "items": [
+        {
+          "type": "Personal Identification Information",
+          "description": "Name, NRIC/passport number, date of birth, gender, contact details (phone number, email address, home address)."
+        },
+        {
+          "type": "Medical Information",
+          "description": "Health history, medical records, treatment details, prescriptions, and other information necessary for your care."
+        },
+        {
+          "type": "Payment & Billing Information",
+          "description": "Bank details, payment method, insurance details (if applicable)."
+        },
+        {
+          "type": "Website Usage Information",
+          "description": "IP address, browser type, pages visited, and cookies for site improvement and analytics."
+        }
+      ]
+    },
+    {
+      "id": "how-we-use-information",
+      "title": "2. How We Use Your Information",
+      "content": "We use your personal information for the following purposes:",
+      "items": [
+        "To provide you with safe, accurate, and effective medical care.",
+        "To manage appointments, reminders, and follow-ups.",
+        "To process payments, insurance claims, or billing.",
+        "To improve our services and website experience.",
+        "To comply with medical, legal, and regulatory requirements.",
+        "To communicate important updates, promotions, or health tips (with your consent)."
+      ]
+    },
+    {
+      "id": "how-we-protect-information",
+      "title": "3. How We Protect Your Information",
+      "content": "We take strict measures to safeguard your personal information, including:",
+      "items": [
+        "Secure storage of physical medical records.",
+        "Use of encryption and password protection for electronic records.",
+        "Limiting access to personal data only to authorized staff.",
+        "Regular system monitoring and staff training on confidentiality."
+      ]
+    },
+    {
+      "id": "sharing-information",
+      "title": "4. Sharing of Information",
+      "content": "We do not sell or trade your personal data. However, we may share information in the following situations:",
+      "items": [
+        {
+          "type": "With healthcare professionals",
+          "description": "involved in your treatment."
+        },
+        {
+          "type": "With insurance providers",
+          "description": "or third-party billing services (if applicable)."
+        },
+        {
+          "type": "When required by law",
+          "description": "or regulatory authorities."
+        },
+        {
+          "type": "With service providers",
+          "description": "who support our clinic operations (e.g., IT, payment gateways)."
+        }
+      ],
+      "note": "All third parties are required to keep your data confidential and use it only for agreed purposes."
+    },
+    {
+      "id": "your-rights",
+      "title": "5. Your Rights",
+      "content": "You have the right to:",
+      "items": [
+        "Access and request a copy of your personal data.",
+        "Correct or update inaccurate information.",
+        "Withdraw consent to certain uses of your data (subject to legal/medical limitations).",
+        "Request deletion of your data where applicable."
+      ]
+    },
+    {
+      "id": "cookies-tracking",
+      "title": "6. Cookies and Website Tracking",
+      "content": "Our website may use cookies and analytics tools to improve user experience. You can adjust your browser settings to refuse cookies, but some features of the site may not function properly."
+    },
+    {
+      "id": "data-retention",
+      "title": "7. Data Retention",
+      "content": "We will retain your personal data for as long as necessary to fulfill medical, legal, and operational requirements. When no longer needed, data will be securely disposed of or anonymized."
+    },
+    {
+      "id": "policy-updates",
+      "title": "8. Updates to this Policy",
+      "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised \"Last Updated\" date."
+    },
+    {
+      "id": "contact-us",
+      "title": "9. Contact Us",
+      "content": "If you have any questions or concerns about this Privacy Policy or how your information is handled, please contact us:",
+      "contactInfo": {
+        "clinicName": "Elitas Clinic",
+        "address": "[Insert Address]",
+        "phone": "[Insert Phone Number]",
+        "email": "[Insert Email Address]"
+      }
+    }
+  ]
+}

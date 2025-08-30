@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, Heart, Users, Shield, Stethoscope, Search, Baby, Briefcase, Scissors, Plane } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { useServiceIcon } from './hooks/useServiceIcon';
 
 interface ServiceCardProps {
   title: string;
@@ -17,21 +18,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   features,
   href
 }) => {
-  // Map icon strings to actual icon components
-  const getIcon = (iconName: string) => {
-    const iconMap: { [key: string]: React.ReactNode } = {
-      Heart: <Heart className="h-8 w-8" />,
-      Users: <Users className="h-8 w-8" />,
-      Shield: <Shield className="h-8 w-8" />,
-      Stethoscope: <Stethoscope className="h-8 w-8" />,
-      Search: <Search className="h-8 w-8" />,
-      Baby: <Baby className="h-8 w-8" />,
-      Briefcase: <Briefcase className="h-8 w-8" />,
-      Scissors: <Scissors className="h-8 w-8" />,
-      Plane: <Plane className="h-8 w-8" />
-    };
-    return iconMap[iconName] || <Heart className="h-8 w-8" />;
-  };
+  const { getIcon } = useServiceIcon();
 
   return (
     <div className="bg-white rounded-healthcare shadow-healthcare hover:shadow-lg transition-all duration-300 p-6 h-full flex flex-col">

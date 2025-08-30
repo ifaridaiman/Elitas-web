@@ -1,0 +1,87 @@
+{
+  "title": "Terms of Service",
+  "lastUpdated": "[Insert Date]",
+  "introduction": "Welcome to Elitas Clinic. By accessing our website or using our services, you agree to comply with the following Terms of Service. Please read them carefully before engaging with our clinic.",
+  "sections": [
+    {
+      "id": "acceptance-of-terms",
+      "title": "1. Acceptance of Terms",
+      "content": "By booking an appointment, visiting our clinic, or using our website, you agree to these Terms of Service, as well as our [Privacy Policy]. If you do not agree, you should not use our services."
+    },
+    {
+      "id": "medical-disclaimer",
+      "title": "2. Medical Disclaimer",
+      "items": [
+        "All information provided on our website is for general informational purposes only and should not replace professional medical advice, diagnosis, or treatment.",
+        "Always consult our qualified medical professionals for advice specific to your condition.",
+        "In case of an emergency, please call emergency services immediately."
+      ]
+    },
+    {
+      "id": "appointments-cancellations",
+      "title": "3. Appointments and Cancellations",
+      "items": [
+        "Appointments can be made online, by phone, or in person.",
+        "If you need to cancel or reschedule, please provide at least 24 hours' notice.",
+        "Late cancellations or no-shows may be subject to a fee."
+      ]
+    },
+    {
+      "id": "payments-billing",
+      "title": "4. Payments and Billing",
+      "items": [
+        "Payments must be made at the time of service unless prior arrangements have been agreed upon.",
+        "We accept cash, credit/debit cards, and other payment methods as stated on our website.",
+        "Insurance claims (if applicable) are subject to verification and approval by your insurance provider."
+      ]
+    },
+    {
+      "id": "patient-responsibilities",
+      "title": "5. Patient Responsibilities",
+      "content": "As a patient at Elitas Clinic, you agree to:",
+      "items": [
+        "Provide accurate and complete personal and medical information.",
+        "Follow the treatment plans prescribed by our healthcare providers.",
+        "Treat our staff and other patients with respect.",
+        "Abide by clinic rules and safety guidelines."
+      ]
+    },
+    {
+      "id": "limitation-liability",
+      "title": "6. Limitation of Liability",
+      "items": [
+        "Elitas Clinic is committed to providing high-quality care but does not guarantee specific results or outcomes.",
+        "We are not responsible for any indirect, incidental, or consequential damages arising from the use of our services or website."
+      ]
+    },
+    {
+      "id": "website-use",
+      "title": "7. Use of Website",
+      "items": [
+        "You agree not to misuse our website, attempt unauthorized access, or engage in activities that may harm the site's functionality.",
+        "Any health-related content on the site is for informational purposes and does not establish a doctor-patient relationship."
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "title": "8. Confidentiality",
+      "content": "Your personal and medical information is handled in accordance with our [Privacy Policy]."
+    },
+    {
+      "id": "modifications-terms",
+      "title": "9. Modifications to Terms",
+      "content": "Elitas Clinic reserves the right to update these Terms of Service at any time. Any changes will be posted on this page with a revised \"Last Updated\" date. Continued use of our services constitutes acceptance of the updated terms."
+    },
+    {
+      "id": "contact-us",
+      "title": "10. Contact Us",
+      "content": "For questions about these Terms of Service, please contact us:",
+      "contactInfo": {
+        "clinicName": "Elitas Clinic",
+        "address": "[Insert Address]",
+        "phone": "[Insert Phone Number]",
+        "email": "[Insert Email Address]"
+      }
+    }
+  ]
+}
