@@ -5,13 +5,13 @@
     "historyandmission": {
         "historyStory": [
             {
-                "para" : "Founded over a decade ago, Elitas Clinic began with a simple yet powerful vision: to make quality healthcare accessible and personalized for every patient. What started as a single clinic has grown into a network of five modern healthcare facilities."
+                "para": "Elitas Clinic is dedicated to providing exceptional healthcare services tailored to meet the needs of our diverse community. What began as a commitment to accessible, personalized care has evolved into a trusted healthcare network that serves patients across multiple locations."
             },
             {
-                "para" : "Over the years, we have expanded our reach to include a diverse range of services, from routine checkups to specialized treatments. Our mission is to provide high-quality, patient-centered care that addresses the unique needs of each individual."
+                "para": "Our experienced team of medical professionals is committed to delivering high-quality care in a compassionate and welcoming environment. We currently operate 3 clinics strategically located in different areas to better serve our patients, ensuring that quality healthcare remains within reach for everyone in our community."
             }
         ],
-    "missionStatement": "Providing reliable, patient-first care by combining medical expertise with genuine compassion. We strive to be your trusted healthcare partner, supporting your wellness journey with personalized attention and advanced medical solutions."
+        "missionStatement": "Providing reliable, patient-first care by combining medical expertise with genuine compassion. We strive to be your trusted healthcare partner, supporting your wellness journey with personalized attention and advanced medical solutions."
     },
     "values": [
         {
@@ -32,11 +32,25 @@
     ],
     "doctors": [
         {
-            "name": "Dr. John Doe",
-            "specialty": "General Medicine",
+            "name": "Dr. Attirah",
+            "specialty": "Medical Officer Elitas Binjai",
             "qualifications": "MD, DDS",
             "bio": "A seasoned general practitioner with over 15 years of experience in providing comprehensive healthcare services. Known for his patient-centered approach and commitment to patient well-being.",
-            "image": "/images/doctors/john-doe.jpg"
+            "image": "/assets/staff/drAttirah-elitasBinjai.png"
+        },
+        {
+            "name": "Dr. Natasha",
+            "specialty": "Medical Officer Elitas CIMB",
+            "qualifications": "MD, DDS",
+            "bio": "A seasoned general practitioner with over 15 years of experience in providing comprehensive healthcare services. Known for his patient-centered approach and commitment to patient well-being.",
+            "image": "/assets/staff/drNatasha-elitasCIMB.png"
+        },
+        {
+            "name": "Dr. Jasmin",
+            "specialty": "Medical Officer Elitas Cheras",
+            "qualifications": "MD, DDS",
+            "bio": "A seasoned general practitioner with over 15 years of experience in providing comprehensive healthcare services. Known for his patient-centered approach and commitment to patient well-being.",
+            "image": "/assets/staff/drJasmin-elitasCheras.png"
         }
     ],
     "whyChooseUsContent": [

@@ -16,8 +16,8 @@ const AboutUs = () => {
       />
       <HistoryMission historyandmission={aboutUsData.historyandmission} />
       <OurValues values={aboutUsData.values} />
-      <MeetDoctor doctors={aboutUsData.doctors} />
-      <SupportiveStaff description={aboutUsData.supportiveStaffDescription} />
+      <MeetDoctor  />
+      <SupportiveStaff description={aboutUsData.supportiveStaffDescription} doctors={aboutUsData.doctors} />
       <ChooseUs whyChooseUs={aboutUsData.whyChooseUsContent} />
     </>
   );
