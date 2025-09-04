@@ -18,7 +18,9 @@ export const useServiceIcon = () => {
       Calendar,
       Phone
     };
-    return iconMap[iconName] || Heart;
+    
+    const IconComponent = iconMap[iconName] || Heart;
+    return <IconComponent className={className} />;
   };
 
   return { getIcon };
