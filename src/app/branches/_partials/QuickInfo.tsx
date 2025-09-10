@@ -10,7 +10,7 @@ const QuickInfo = () => {
                     <div className="flex flex-col items-center">
                         <Phone className="h-8 w-8 mb-3" />
                         <h3 className="text-lg font-semibold mb-2">Main Line</h3>
-                        <p className="opacity-90">+1 (555) 123-4567</p>
+                        <p className="opacity-90">+6 011 1300-1410</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Clock className="h-8 w-8 mb-3" />

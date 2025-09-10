@@ -24,7 +24,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     <div className="bg-white rounded-healthcare shadow-healthcare hover:shadow-lg transition-all duration-300 p-6 h-full flex flex-col">
       {/* Icon */}
       <div className="w-16 h-16 bg-healthcare-primary rounded-healthcare flex items-center justify-center mb-4 text-white">
-        {icon && React.createElement(getIcon(icon))}
+        {icon && getIcon(icon)}
       </div>
 
       {/* Title */}

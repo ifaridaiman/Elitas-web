@@ -41,7 +41,6 @@ const BranchLocator = ({ branchLocator }: BranchLocatorProps) => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {branchLocator.features.map((feature: BranchLocatorFeature, index: number) => {
-            const IconComponent = getIcon(feature.icon);
             const delays = ["100", "200", "300"];
             const animations = ["slide-right", "slide-up", "slide-left"];
             
@@ -53,7 +52,7 @@ const BranchLocator = ({ branchLocator }: BranchLocatorProps) => {
                 data-aos-delay={delays[index]}
               >
                 <div className="w-16 h-16 bg-healthcare-primary rounded-healthcare flex items-center justify-center mx-auto mb-4">
-                  {React.createElement(IconComponent, { className: "h-8 w-8 text-white" })}
+                  {feature.icon && getIcon(feature.icon, "h-8 w-8 text-white")}
                 </div>
                 <h3 className="text-xl font-semibold text-healthcare-primary mb-2">
                   {feature.title}

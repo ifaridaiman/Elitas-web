@@ -2,7 +2,7 @@
     "services": [
         {
             "title": "Primary Care Services",
-            "description": "Comprehensive health assessments and preventive screenings to detect potential issues early and maintain optimal health",
+            "description": "Your health matters every day. We provide comprehensive check-ups and preventive screenings to keep you healthy and catch potential issues early.",
             "icon": "Stethoscope",
             "features": [
                 "General Health Check-ups and Treatment",
@@ -12,7 +12,7 @@
         },
         {
             "title": "Specialized Health Screenings",
-            "description": "Targeted diagnostic examinations focusing on early detection of specific diseases and conditions in high-risk populations",
+            "description": "Stay one step ahead with focused screenings designed to detect specific conditions in high-risk groups.",
             "icon": "Search",
             "features": [
                 "Cancer Screening",
@@ -21,7 +21,7 @@
         },
         {
             "title": "Reproductive and Family Health",
-            "description": "Complete healthcare services supporting fertility, pregnancy, family planning decisions, and maternal-child wellness throughout all life stages",
+            "description": "From family planning to pregnancy care, we support your health journey through every stage of life.",
             "icon": "Baby",
             "features": [
                 "Fertility Issues and Family Planning",
@@ -30,7 +30,7 @@
         },
         {
             "title": "Occupational Health Services",
-            "description": "Professional medical evaluations ensuring workplace safety compliance and fitness for duty in specialized employment sectors",
+            "description": "We ensure you’re fit and ready for work with professional medical evaluations for specialized industries.",
             "icon": "Briefcase",
             "features": [
                 "Income Checks for GDL, PSV, and E-hailing"
@@ -38,7 +38,7 @@
         },
         {
             "title": "Surgical Services",
-            "description": "Minor outpatient surgical procedures performed with precision and safety protocols for optimal patient outcomes and recovery",
+            "description": "Safe and precise minor procedures to help you recover quickly and confidently.",
             "icon": "Scissors",
             "features": [
                 "Minor Surgery"
@@ -46,7 +46,7 @@
         },
         {
             "title": "Travel Health Services",
-            "description": "Specialized medical examinations and vaccinations required for international travel and religious pilgrimage",
+            "description": "Travel with peace of mind. We provide medical examinations and vaccinations for international trips and religious pilgrimages.",
             "icon": "Plane",
             "features": [
                 "Hajj and Umrah Services"

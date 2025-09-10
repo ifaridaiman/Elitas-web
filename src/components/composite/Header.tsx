@@ -8,7 +8,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({
-  phoneNumber = "+1 (555) 123-4567",
+  phoneNumber = "+6 011 1300-1410",
   multipleLocation = "3 Locations Available",
   announcement,
 }) => {

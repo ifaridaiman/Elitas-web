@@ -49,7 +49,7 @@ const CtaFooter = ({ title, description, showEmergencyContact=false }: CTAFooter
                 {
                     showEmergencyContact && (
                         <div className="mt-8 text-sm opacity-75" data-aos="fade-up" data-aos-delay="400">
-                            <p>Emergency? Call 999 | General Inquiries: +1 (555) 123-4567</p>
+                            <p>Emergency? Call 999 | General Inquiries: +6 011 1300-1410</p>
                         </div>
                     )
                 }

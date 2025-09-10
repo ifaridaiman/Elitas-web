@@ -84,7 +84,7 @@ const Footer = () => {
                             <Button
                                 title="Book an Appointment"
                                 onClick={() => { router.push('/contact-us') }}
-                                size="lg"
+                                size="sm"
                                 className="bg-healthcare-warm text-healthcare-primary hover:bg-gray-100 rounded-healthcare"
                                 rightIcon={<MessageCircle className="h-5 w-5" />}
                             />

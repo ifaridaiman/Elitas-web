@@ -1,24 +1,28 @@
-"use client"
+"use client";
 import HeaderPage from "@/components/ui/HeaderPage";
 import React from "react";
 import { MessageCircle, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const ContactUs = () => {
   const whatsappNumber = "+60123456789"; // Replace with actual WhatsApp number
-  const whatsappMessage = "Hello! I would like to inquire about your healthcare services.";
-  
+  const whatsappMessage =
+    "Hello! I would like to inquire about your healthcare services.";
+
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
-    window.open(url, '_blank');
+    const url = `https://wa.me/${whatsappNumber.replace(
+      /[^0-9]/g,
+      ""
+    )}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(url, "_blank");
   };
 
   return (
     <>
-      <HeaderPage 
-        title="Contact Us" 
-        description="Get in touch with us for appointments, inquiries, or emergency assistance. We're here to help you with all your healthcare needs." 
+      <HeaderPage
+        title="Contact Us"
+        description="Get in touch with us for appointments, inquiries, or emergency assistance. We're here to help you with all your healthcare needs."
       />
-      
+
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Contact Card */}
@@ -28,7 +32,8 @@ const ContactUs = () => {
                 Ready to Connect?
               </h2>
               <p className="text-lg text-foreground/70">
-                Reach out to us through WhatsApp for quick responses and easy communication.
+                Reach out to us through WhatsApp for quick responses and easy
+                communication.
               </p>
             </div>
 
@@ -51,9 +56,13 @@ const ContactUs = () => {
                   <Phone className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-healthcare-primary mb-1">Phone</h3>
-                  <p className="text-foreground/80">+1 (555) 123-4567</p>
-                  <p className="text-sm text-foreground/60">Available 24/7 for emergencies</p>
+                  <h3 className="font-semibold text-healthcare-primary mb-1">
+                    Phone
+                  </h3>
+                  <p className="text-foreground/80">+6 011 1300-1410</p>
+                  <p className="text-sm text-foreground/60">
+                    Available 24/7 for emergencies
+                  </p>
                 </div>
               </div>
 
@@ -63,7 +72,9 @@ const ContactUs = () => {
                   <Mail className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-healthcare-primary mb-1">Email</h3>
+                  <h3 className="font-semibold text-healthcare-primary mb-1">
+                    Email
+                  </h3>
                   <p className="text-foreground/80">info@elitasclinic.com</p>
                   <p className="text-sm text-foreground/60">{`We'll respond within 24 hours`}</p>
                 </div>
@@ -75,10 +86,13 @@ const ContactUs = () => {
                   <MapPin className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-healthcare-primary mb-1">Main Location</h3>
-                  <p className="text-foreground/80">L2-O3A, CIMB Hub, 26, Jln Sultan Ismail,</p>
-                  <p className="text-foreground/80">Kuala Lumpur, 50250 Kuala Lumpur</p>
-                  <p className="text-foreground/80">Kuala Lumpur, Malaysia</p>
+                  <h3 className="font-semibold text-healthcare-primary mb-1">
+                    Main Location
+                  </h3>
+                  <p className="text-foreground/80">
+                    L2-O3A, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250
+                    Kuala Lumpur, Malaysia
+                  </p>
                 </div>
               </div>
 
@@ -88,9 +102,15 @@ const ContactUs = () => {
                   <Clock className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-healthcare-primary mb-1">Operating Hours</h3>
-                  <p className="text-foreground/80">Mon - Fri: 8:00 AM - 6:00 PM</p>
-                  <p className="text-foreground/80">Saturday: 9:00 AM - 4:00 PM</p>
+                  <h3 className="font-semibold text-healthcare-primary mb-1">
+                    Operating Hours
+                  </h3>
+                  <p className="text-foreground/80">
+                    Mon - Fri: 8:00 AM - 6:00 PM
+                  </p>
+                  <p className="text-foreground/80">
+                    Saturday: 9:00 AM - 4:00 PM
+                  </p>
                   <p className="text-foreground/80">Sunday: Closed</p>
                 </div>
               </div>
@@ -103,16 +123,18 @@ const ContactUs = () => {
               Emergency Services
             </h3>
             <p className="text-red-700 mb-4">
-              For medical emergencies, please call 999 or visit your nearest emergency room immediately.
+              For medical emergencies, please call 999 or visit your nearest
+              emergency room immediately.
             </p>
             <p className="text-sm text-red-600">
-              Our WhatsApp service is for non-emergency inquiries and appointments only.
+              Our WhatsApp service is for non-emergency inquiries and
+              appointments only.
             </p>
           </div>
         </div>
       </section>
     </>
   );
-}
+};
 
 export default ContactUs;

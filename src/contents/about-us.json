@@ -32,13 +32,34 @@
     ],
     "doctors": [
         {
-            "name": "Dr. John Doe",
-            "specialty": "General Medicine",
-            "qualifications": "MD, DDS",
-            "bio": "A seasoned general practitioner with over 15 years of experience in providing comprehensive healthcare services. Known for his patient-centered approach and commitment to patient well-being.",
-            "image": "/images/doctors/john-doe.jpg"
+            "name": "Dr. Natasha Eleena",
+            "specialty": "Emergency & critical care procedures",
+            "qualifications": "MBBS (UniKL)",
+            "bio": "Dedicated medical doctor with experience in emergency medicine, general practice, and primary care. Skilled in managing acute and chronic conditions, performing critical care procedures, and providing holistic outpatient services. Passionate about preventive healthcare, patient education, and delivering compassionate, patient-centered care.",
+            "image": "/assets/doctors/natasha.jpg"
+        },
+        {
+            "name": "Dr. Jasmin",
+            "specialty": "Primary care/Clinic Management",
+            "qualifications": "MBBS (Universiti Malaysia Sarawak)",
+            "bio": "Dedicated medical doctor with experience in primary care, clinic management, and hospital-based practice. Skilled in patient care, emergency management, and clinic operations, with proven ability to lead teams and streamline services. Currently serving as Clinic Manager at Elitas Clinic, committed to delivering quality, patient-centered care.",
+            "image": "/assets/doctors/jasmin.jpg"
+        },
+        {
+            "name": "Dr. Attirah Nur Asyura",
+            "specialty": "Anesthesiology and Primary Care",
+            "qualifications": "MBBS (MSU)",
+            "bio": "Dedicated and compassionate medical doctor with experience in anesthesiology and a growing interest in holistic primary care. Strong clinical acumen developed through hands-on practice in both hospital and clinic settings. Known for delivering patient-centered care, with excellent communication and critical thinking skills.",
+            "image": "/assets/doctors/attirah.jpg"
         }
     ],
+    "founder": {
+        "image": "/assets/doctors/eniza.jpg",
+        "name": "Dr. Nik Nur Eniza",
+        "specialty": "Emergency & critical care procedures",
+        "qualifications": "MBBS (Crimea State Medical University, Ukraine)",
+        "bio": "Experienced medical doctor with over a decade of practice in emergency medicine, cardiothoracic surgery, and primary care. Completed housemanship at Tuanku Ja’afar Seremban Hospital before serving as a medical officer in cardiothoracic surgery at Serdang Hospital, specializing in cardiac bypass procedures. Furthered her career in emergency medicine at Gleneagles Kuala Lumpur, Pantai Hospital, and Prince Court Medical Centre. Currently the founder of Elitas Clinic, where she combines her clinical expertise with a passion for delivering patient-centered care."
+    },
     "whyChooseUsContent": [
         {
             "reason": "State-of-the-art medical facilities and equipment"
