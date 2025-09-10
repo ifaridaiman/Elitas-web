@@ -58,7 +58,7 @@
 }
 
 /* Dark mode overrides */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: 25 15% 8%;
     --foreground: 35 25% 95%;
@@ -104,7 +104,7 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-}
+} */
 
 /* Tailwind 4 @theme inline mapping */
 @theme inline {
