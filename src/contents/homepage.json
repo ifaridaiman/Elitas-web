@@ -2,7 +2,7 @@
     "services": [
         {
             "title": "Primary Care Services",
-            "description": "Comprehensive health assessments and preventive screenings to detect potential issues early and maintain optimal health",
+            "description": "ComprYour health matters every day. We provide comprehensive check-ups and preventive screenings to keep you healthy and catch potential issues early.",
             "icon": "Stethoscope",
             "features": [
                 "General Health Check-ups and Treatment",
@@ -12,7 +12,7 @@
         },
         {
             "title": "Specialized Health Screenings",
-            "description": "Targeted diagnostic examinations focusing on early detection of specific diseases and conditions in high-risk populations",
+            "description": "Stay one step ahead with focused screenings designed to detect specific conditions in high-risk groups.",
             "icon": "Search",
             "features": [
                 "Cancer Screening",
@@ -21,7 +21,7 @@
         },
         {
             "title": "Reproductive and Family Health",
-            "description": "Complete healthcare services supporting fertility, pregnancy, family planning decisions, and maternal-child wellness throughout all life stages",
+            "description": "From family planning to pregnancy care, we support your health journey through every stage of life.",
             "icon": "Baby",
             "features": [
                 "Fertility Issues and Family Planning",
