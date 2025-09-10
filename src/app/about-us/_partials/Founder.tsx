@@ -18,15 +18,20 @@ const Founder = ({
   return (
     <section className="py-20 bg-healthcare-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl font-bold text-healthcare-primary mb-6">
-          Our Founder
-        </h2>
-        <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-          Elitas Clinic was founded in 2010 with a mission to provide
-          high-quality healthcare services to our community. We have since
-          grown to become one of the leading healthcare providers in the
-          region.
-        </p>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-healthcare-primary mb-6">
+            Our Founder
+          </h2>
+          <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
+            Founded by a dedicated medical professional with extensive
+            experience in hospital and emergency medicine, Elitas Clinic was
+            built on the vision of providing accessible, compassionate, and
+            high-quality healthcare. Guided by years of clinical expertise, the
+            clinic continues to deliver patient-centered care with a focus on
+            excellence and trust.
+          </p>
+        </div>
+
         <div>
           <div className="bg-card border border-healthcare-secondary rounded-healthcare p-6 text-center shadow-healthcare">
             <div className="w-24 h-24 bg-healthcare-warm rounded-full flex items-center justify-center mx-auto mb-6">
