@@ -90,7 +90,7 @@ const Navbar: React.FC<NavbarProps> = ({
                 />
               </div>
               <div className="flex flex-col">
-                <h1 className="text-xl font-bold text-healthcare-primary">
+                <h1 className="text-xl font-bold text-healthcare-primary hidden md:block">
                   {title}
                 </h1>
                 {tagline && (

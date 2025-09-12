@@ -115,10 +115,10 @@ const HeroBanner = () => {
             <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-healthcare shadow-lg">
               <div className="text-center">
                 <div className="text-2xl font-bold text-healthcare-primary">
-                  24/7
+                  100%
                 </div>
                 <div className="text-xs text-foreground/70">
-                  Emergency Support
+                   Tailored Care Approach
                 </div>
               </div>
             </div>

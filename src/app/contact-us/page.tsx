@@ -106,7 +106,7 @@ const ContactUs = () => {
                     Operating Hours
                   </h3>
                   <p className="text-foreground/80">
-                    Mon - Fri: 8:00 AM - 6:00 PM
+                    Mon - Fri: 8:00 AM - 10:00 PM
                   </p>
                   <p className="text-foreground/80">
                     Saturday: 9:00 AM - 4:00 PM
