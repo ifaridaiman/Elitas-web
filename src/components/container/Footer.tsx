@@ -64,15 +64,19 @@ const Footer = () => {
                         <div className="space-y-3">
                             <div className="flex items-center space-x-3">
                                 <Phone className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">{globalData.footer.contactInfo.phone}</span>
+                                <a href={`tel:${globalData.footer.contactInfo.phone}`} className="text-sm hover:underline transition-all duration-100">
+                                    {globalData.footer.contactInfo.phone}
+                                </a>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Mail className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">{globalData.footer.contactInfo.email}</span>
+                                <a href={`mailto:${globalData.footer.contactInfo.email}`} className="text-sm hover:underline transition-all duration-100">
+                                    {globalData.footer.contactInfo.email}
+                                </a>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <MapPin className="h-4 w-4 flex-shrink-0" />
-                                <span className="text-sm">{globalData.footer.contactInfo.address}</span>
+                                <Link href="/branches" className="hover:underline transition-all duration-100" ><span className="text-sm">{globalData.footer.contactInfo.address}</span></Link>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Clock className="h-4 w-4 flex-shrink-0" />

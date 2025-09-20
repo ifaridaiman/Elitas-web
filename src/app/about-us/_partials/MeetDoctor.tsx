@@ -24,9 +24,9 @@ const MeetDoctor = ({ doctors }: MeetDoctorProps) => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="flex flex-wrap justify-center gap-8">
                     {doctors.map((doctor, index) => (
-                        <div key={index} className="bg-card border border-healthcare-secondary rounded-healthcare p-6 text-center shadow-healthcare">
+                        <div key={index} className="bg-card border border-healthcare-secondary rounded-healthcare p-6 text-center shadow-healthcare w-full sm:w-80 lg:w-72 xl:w-80">
                             <div className="w-24 h-24 bg-healthcare-warm rounded-full flex items-center justify-center mx-auto mb-6">
                                 {doctor.image ? (
                                     <Image width={200} height={200}  src={doctor.image} alt={doctor.name} className="w-full h-full object-cover rounded-full" />
