@@ -3,7 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Button from "../ui/Button";
+import { Red_Hat_Display } from "next/font/google";
 
+const redHatDisplay = Red_Hat_Display({
+  weight: "400",
+  variable: "--font-red-hat-display",
+  subsets: ["latin"],
+});
 interface NavigationItem {
   label: string;
   href: string;
@@ -89,12 +95,12 @@ const Navbar: React.FC<NavbarProps> = ({
                   priority
                 />
               </div>
-              <div className="flex flex-col">
-                <h1 className="text-xl font-bold text-healthcare-primary hidden md:block">
+              <div className=" md:flex-col hidden md:flex">
+                <h1 className={`text-3xl font-bold text-healthcare-primary pt-2 ${redHatDisplay.className}`}>
                   {title}
                 </h1>
                 {tagline && (
-                  <p className="text-xs text-healthcare-accent hidden sm:block">
+                  <p className="text-xs text-healthcare-accent hidden md:block">
                     {tagline}
                   </p>
                 )}
