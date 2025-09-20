@@ -27,15 +27,15 @@ const Header: React.FC<HeaderProps> = ({
           <div className="flex justify-between items-center py-2 text-sm">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4 text-healthcare-primary" />
-              <p className="text-sm text-healthcare-primary font-medium">
+              <a href={`tel:${phoneNumber}`}  className="text-sm text-healthcare-primary font-medium">
                 {phoneNumber}
-              </p>
+              </a>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-4 w-4 text-healthcare-primary" />
-              <p className="text-sm text-healthcare-primary font-medium">
+              <a href={`/branches`} className="text-sm text-healthcare-primary font-medium">
                 {multipleLocation}
-              </p>
+              </a>
             </div>
           </div>
         )}
