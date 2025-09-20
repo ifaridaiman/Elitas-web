@@ -1,11 +1,30 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../../components/ui/Button";
 import { ArrowRight, Calendar, MapPin } from "lucide-react";
 
 const HeroBanner = () => {
+  const facilityImages = [
+    "/assets/facilities/elitas-clinic-front.jpg",
+    "/assets/facilities/elitas-cheras-hallway.jpg",
+    "/assets/facilities/elitas-cheras-xray.jpg",
+    "/assets/facilities/elitas-cimb-hall.jpg"
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        (prevIndex + 1) % facilityImages.length
+      );
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [facilityImages.length]);
+
   return (
     <section className="relative min-h-[80vh] flex items-center bg-gradient-to-r from-healthcare-warm to-healthcare-secondary overflow-hidden">
       {/* Background Pattern */}
@@ -90,17 +109,22 @@ const HeroBanner = () => {
             </div>
           </div>
 
-          {/* Hero Image */}
+          {/* Hero Image Carousel */}
           <div className="relative">
             <div className="relative rounded-healthcare overflow-hidden shadow-2xl">
-              <Image
-                src="/assets/elitas-clinic-front.jpg"
-                alt="Elitas Clinic - professional healthcare environment"
-                width={600}
-                height={400}
-                className="w-full h-auto object-cover"
-                priority
-              />
+              {facilityImages.map((image, index) => (
+                <Image
+                  key={image}
+                  src={image}
+                  alt={`Elitas Clinic facility ${index + 1}`}
+                  width={600}
+                  height={400}
+                  className={`w-full h-[400px] object-cover transition-opacity duration-1000 ${
+                    index === currentImageIndex ? 'opacity-100' : 'opacity-0 absolute inset-0'
+                  }`}
+                  priority={index === 0}
+                />
+              ))}
               <div className="absolute inset-0 bg-gradient-to-t from-healthcare-primary/20 to-transparent"></div>
             </div>
 
