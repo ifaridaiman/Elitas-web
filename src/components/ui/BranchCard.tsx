@@ -74,7 +74,7 @@ const BranchCard: React.FC<BranchCardProps> = ({ branch }) => {
         </div>
 
         {/* Services */}
-        <div>
+        {/* <div>
           <h4 className="font-semibold text-healthcare-primary mb-2">Available Services</h4>
           <div className="flex flex-wrap gap-2">
             {branch.services.map((service, index) => (
@@ -86,7 +86,7 @@ const BranchCard: React.FC<BranchCardProps> = ({ branch }) => {
               </span>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-healthcare-secondary">

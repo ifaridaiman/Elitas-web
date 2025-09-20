@@ -3,7 +3,7 @@ import Image from "next/image";
 
 type Doctors = {
     name: string;
-    specialty: string;
+    pic: string;
     qualifications: string;
     bio: string;
     image?: string;
@@ -37,7 +37,7 @@ const MeetDoctor = ({ doctors }: MeetDoctorProps) => {
                                 )}
                             </div>
                             <h3 className="text-xl font-bold text-healthcare-primary mb-2">{doctor.name}</h3>
-                            <div className="text-healthcare-accent font-medium mb-2">{doctor.specialty}</div>
+                            <div className="text-healthcare-accent font-medium mb-2">{doctor.pic}</div>
                             <div className="text-sm text-foreground/60 mb-4">{doctor.qualifications}</div>
                             <p className="text-foreground/80 leading-relaxed">{doctor.bio}</p>
                         </div>

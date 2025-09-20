@@ -61,7 +61,7 @@ const ContactUs = () => {
                   </h3>
                   <p className="text-foreground/80">+6 011 1300-1410</p>
                   <p className="text-sm text-foreground/60">
-                    Available 24/7 for emergencies
+                    Available for booking appointments and inquiries
                   </p>
                 </div>
               </div>

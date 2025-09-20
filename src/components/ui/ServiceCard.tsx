@@ -38,14 +38,14 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       </p>
 
       {/* Features */}
-      <ul className="space-y-2 mb-6">
+      {/* <ul className="space-y-2 mb-6">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start text-sm text-foreground/80">
             <span className="w-1.5 h-1.5 bg-healthcare-accent rounded-full mt-2 mr-3 flex-shrink-0"></span>
             {feature}
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       {/* Learn More Link */}
       {

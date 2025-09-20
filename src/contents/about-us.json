@@ -5,13 +5,13 @@
     "historyandmission": {
         "historyStory": [
             {
-                "para" : "Founded over a decade ago, Elitas Clinic began with a simple yet powerful vision: to make quality healthcare accessible and personalized for every patient. What started as a single clinic has grown into a network of five modern healthcare facilities."
+                "para": "Founded over a decade ago, Elitas Clinic began with a simple yet powerful vision: to make quality healthcare accessible and personalized for every patient. What started as a single clinic has grown into a network of five modern healthcare facilities."
             },
             {
-                "para" : "Over the years, we have expanded our reach to include a diverse range of services, from routine checkups to specialized treatments. Our mission is to provide high-quality, patient-centered care that addresses the unique needs of each individual."
+                "para": "Over the years, we have expanded our reach to include a diverse range of services, from routine checkups to specialized treatments. Our mission is to provide high-quality, patient-centered care that addresses the unique needs of each individual."
             }
         ],
-    "missionStatement": "Providing reliable, patient-first care by combining medical expertise with genuine compassion. We strive to be your trusted healthcare partner, supporting your wellness journey with personalized attention and advanced medical solutions."
+        "missionStatement": "Providing reliable, patient-first care by combining medical expertise with genuine compassion. We strive to be your trusted healthcare partner, supporting your wellness journey with personalized attention and advanced medical solutions."
     },
     "values": [
         {
@@ -33,32 +33,50 @@
     "doctors": [
         {
             "name": "Dr. Natasha Eleena",
-            "specialty": "Emergency & critical care procedures",
+            "pic": "PIC/Medical OFficer Elitas CIMB",
             "qualifications": "MBBS (UniKL)",
             "bio": "Dedicated medical doctor with experience in emergency medicine, general practice, and primary care. Skilled in managing acute and chronic conditions, performing critical care procedures, and providing holistic outpatient services. Passionate about preventive healthcare, patient education, and delivering compassionate, patient-centered care.",
-            "image": "/assets/doctors/natasha.jpg"
+            "image": "/assets/doctors/Dr-Natasha.jpg"
         },
         {
             "name": "Dr. Jasmin",
-            "specialty": "Primary care/Clinic Management",
+            "pic": "Clinic Manager & Medical Officer Elitas Cheras",
             "qualifications": "MBBS (Universiti Malaysia Sarawak)",
             "bio": "Dedicated medical doctor with experience in primary care, clinic management, and hospital-based practice. Skilled in patient care, emergency management, and clinic operations, with proven ability to lead teams and streamline services. Currently serving as Clinic Manager at Elitas Clinic, committed to delivering quality, patient-centered care.",
-            "image": "/assets/doctors/jasmin.jpg"
+            "image": "/assets/doctors/Dr-Jasmin.jpg"
         },
         {
             "name": "Dr. Attirah Nur Asyura",
-            "specialty": "Anesthesiology and Primary Care",
+            "pic": "PIC/Medical Officer Elitas Binjai",
             "qualifications": "MBBS (MSU)",
             "bio": "Dedicated and compassionate medical doctor with experience in anesthesiology and a growing interest in holistic primary care. Strong clinical acumen developed through hands-on practice in both hospital and clinic settings. Known for delivering patient-centered care, with excellent communication and critical thinking skills.",
-            "image": "/assets/doctors/attirah.jpg"
+            "image": "/assets/doctors/Dr-Attirah.jpg"
+        },
+        {
+            "name": "Dr. Afiqah",
+            "pic": "PIC/Medical Officer Elitas Binjai",
+            "qualifications": "MBBS (MSU)",
+            "bio": "",
+            "image": "/assets/doctors/Dr-Afiqah.jpg"
+        },
+        {
+            "name": "Dr. Sarah",
+            "pic": "PIC/Medical Officer Elitas Binjai",
+            "qualifications": "MBBS (MSU)",
+            "bio": "",
+            "image": "/assets/doctors/Dr-Sarah.jpg"
         }
     ],
     "founder": {
-        "image": "/assets/doctors/eniza.jpg",
+        "image": "/assets/doctors/Dr-Eniza.jpg",
         "name": "Dr. Nik Nur Eniza",
         "specialty": "Emergency & critical care procedures",
         "qualifications": "MBBS (Crimea State Medical University, Ukraine)",
         "bio": "Experienced medical doctor with over a decade of practice in emergency medicine, cardiothoracic surgery, and primary care. Completed housemanship at Tuanku Ja’afar Seremban Hospital before serving as a medical officer in cardiothoracic surgery at Serdang Hospital, specializing in cardiac bypass procedures. Furthered her career in emergency medicine at Gleneagles Kuala Lumpur, Pantai Hospital, and Prince Court Medical Centre. Currently the founder of Elitas Clinic, where she combines her clinical expertise with a passion for delivering patient-centered care."
+    },
+    "supportiveStaff": {
+        "description": "At Elitas Clinic, we believe that exceptional healthcare is a team effort. Our dedicated supportive staff play a crucial role in ensuring that every patient receives the best possible care. From our friendly receptionists who greet you with a warm smile to our skilled nurses who assist with treatments and provide compassionate care, every member of our team is committed to your wellbeing. Our administrative staff work tirelessly behind the scenes to ensure smooth operations, allowing our medical professionals to focus on what they do best - caring for you. Together, we create a welcoming and efficient environment where your health and comfort are our top priorities.",
+        "staffImage": "/assets/about-us/dr & staffs cimb.jpg"
     },
     "whyChooseUsContent": [
         {

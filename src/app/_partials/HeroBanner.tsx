@@ -65,14 +65,14 @@ const HeroBanner = () => {
 
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="text-3xl font-bold text-healthcare-primary">
                   10+
                 </div>
                 <div className="text-sm text-foreground/70">
                   Years Experience
                 </div>
-              </div>
+              </div> */}
               <div className="text-center">
                 <div className="text-3xl font-bold text-healthcare-primary">
                   3
@@ -94,8 +94,8 @@ const HeroBanner = () => {
           <div className="relative">
             <div className="relative rounded-healthcare overflow-hidden shadow-2xl">
               <Image
-                src="/assets/hero-family.jpg"
-                alt="Happy diverse family in Elitas Clinic - professional healthcare environment"
+                src="/assets/elitas-clinic-front.jpg"
+                alt="Elitas Clinic - professional healthcare environment"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"

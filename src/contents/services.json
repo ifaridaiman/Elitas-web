@@ -1,8 +1,8 @@
 {
     "services": [
         {
-            "title": "Primary Care Services",
-            "description": "Your health matters every day. We provide comprehensive check-ups and preventive screenings to keep you healthy and catch potential issues early.",
+            "title": "General Health Check-ups and Treatment",
+            "description": "Providing diagnosis and treatment for various health issues in adults and children.",
             "icon": "Stethoscope",
             "features": [
                 "General Health Check-ups and Treatment",
@@ -11,8 +11,8 @@
             ]
         },
         {
-            "title": "Specialized Health Screenings",
-            "description": "Stay one step ahead with focused screenings designed to detect specific conditions in high-risk groups.",
+            "title": "Blood and Urine Tests",
+            "description": "Conducting a range of laboratory tests for comprehensive health assessments.",
             "icon": "Search",
             "features": [
                 "Cancer Screening",
@@ -20,8 +20,8 @@
             ]
         },
         {
-            "title": "Reproductive and Family Health",
-            "description": "From family planning to pregnancy care, we support your health journey through every stage of life.",
+            "title": "Fertility Issues and Family Planning",
+            "description": "Offering advice and treatment for fertility concerns and family planning.",
             "icon": "Baby",
             "features": [
                 "Fertility Issues and Family Planning",
@@ -29,25 +29,57 @@
             ]
         },
         {
-            "title": "Occupational Health Services",
-            "description": "We ensure you’re fit and ready for work with professional medical evaluations for specialized industries.",
+            "title": "Cancer Screening",
+            "description": "Screening programs for the early detection of various types of cancer.",
             "icon": "Briefcase",
             "features": [
                 "Provide Health Checks for applicants of GDL, PSV, and E-hailing licenses"
             ]
         },
         {
-            "title": "Surgical Services",
-            "description": "Safe and precise minor procedures to help you recover quickly and confidently.",
+            "title": "Hajj and Umrah Services",
+            "description": "Providing health checks and vaccinations for Ha j and Umrah pilgrims",
             "icon": "Scissors",
             "features": [
                 "Minor Surgery"
             ]
         },
         {
-            "title": "Travel Health Services",
-            "description": "Travel with peace of mind. We provide medical examinations and vaccinations for international trips and religious pilgrimages.",
+            "title": "Heart Checks and ECG",
+            "description": "Performing heart examinations to assess cardiovascular health",
             "icon": "Plane",
+            "features": [
+                "Hajj and Umrah Services"
+            ]
+        },
+        {
+            "title": "Food Handler Health Cheks",
+            "description": "Performing heart examinations to assess cardiovascular health",
+            "icon": "Plane",
+            "features": [
+                "Hajj and Umrah Services"
+            ]
+        },
+        {
+            "title": "LIcense Checks for GDL, PSV, and E-hailing",
+            "description": "Providing health checks for applicants of GDL, PSV and e-hailing licenses.",
+            "icon": "Plane",
+            "features": [
+                "Hajj and Umrah Services"
+            ]
+        },
+        {
+            "title": "Minor Surgery",
+            "description": "Performing minor surgical procedures wuth a focus on patient safety.",
+                "icon": "Scissors",
+            "features": [
+                "Hajj and Umrah Services"
+            ]
+        },
+        {
+            "title": "Maternal and Child Health Check-ups and Vaccinations",
+            "description": "Offering health checks for mothers and children, along with vaccination services",
+                "icon": "Baby",
             "features": [
                 "Hajj and Umrah Services"
             ]
