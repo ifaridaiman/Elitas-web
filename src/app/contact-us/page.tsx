@@ -4,7 +4,7 @@ import React from "react";
 import { MessageCircle, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const ContactUs = () => {
-  const whatsappNumber = "+60123456789"; // Replace with actual WhatsApp number
+  const whatsappNumber = "+601113001410"; // Replace with actual WhatsApp number
   const whatsappMessage =
     "Hello! I would like to inquire about your healthcare services.";
 

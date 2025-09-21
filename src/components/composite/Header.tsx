@@ -30,6 +30,7 @@ const Header: React.FC<HeaderProps> = ({
               <a href={`tel:${phoneNumber}`}  className="text-sm text-healthcare-primary font-medium">
                 {phoneNumber}
               </a>
+              <span className="text-healthcare-primary"></span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-4 w-4 text-healthcare-primary" />
