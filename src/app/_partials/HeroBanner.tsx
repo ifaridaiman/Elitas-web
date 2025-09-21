@@ -8,9 +8,8 @@ import { ArrowRight, Calendar, MapPin } from "lucide-react";
 const HeroBanner = () => {
   const facilityImages = [
     "/assets/facilities/elitas-clinic-front.jpg",
-    "/assets/facilities/elitas-cheras-hallway.jpg",
-    "/assets/facilities/elitas-cheras-xray.jpg",
-    "/assets/facilities/elitas-cimb-hall.jpg"
+    "/assets/facilities/elitas-clinic-cimb.jpeg",
+    "/assets/facilities/elitas-clinic-binjai.jpeg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

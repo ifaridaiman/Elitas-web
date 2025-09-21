@@ -12,7 +12,7 @@ const HeaderNavbar = () => {
       <Header />
       <Navbar
         logoUrl="/assets/logo.svg"
-        title="Elitas Clinic"
+        title="litas Clinic"
         tagline="Innovative Healthcare Solutions"
         navigationItems={navbarMenu.menuList.map((item) => ({
           label: item.title,

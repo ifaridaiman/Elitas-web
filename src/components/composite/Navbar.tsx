@@ -83,27 +83,27 @@ const Navbar: React.FC<NavbarProps> = ({
           <div className="flex items-center justify-center space-x-3">
             <Link
               href="/"
-              className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+              className="flex items-center space-x-0.5 hover:opacity-80 transition-opacity"
             >
-              <div className="relative w-10 h-10">
+              <div className="relative w-auto h-auto">
                 <Image
                   src={logoUrl}
                   alt={logoAlt}
-                  width={40}
-                  height={40}
+                  width={25}
+                  height={25}
                   className="object-contain"
                   priority
                 />
               </div>
-              <div className=" md:flex-col hidden md:flex">
-                <h1 className={`text-3xl font-bold text-healthcare-primary pt-2 ${redHatDisplay.className}`}>
+              <div className=" flex-col flex">
+                <h1 className={`text-4xl font-bold text-gray-600 pt-[3.5px] ${redHatDisplay.className}`}>
                   {title}
                 </h1>
-                {tagline && (
-                  <p className="text-xs text-healthcare-accent hidden md:block">
+                {/* {tagline && (
+                  <p className="text-xs text-healthcare-accent">
                     {tagline}
                   </p>
-                )}
+                )} */}
               </div>
             </Link>
           </div>

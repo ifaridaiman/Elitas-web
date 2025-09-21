@@ -1,5 +1,5 @@
 import React from "react";
-import {Phone, Clock, Mail} from 'lucide-react'
+import {Phone, Mail} from 'lucide-react'
 
 const QuickInfo = () => {
 
@@ -10,12 +10,13 @@ const QuickInfo = () => {
                     <div className="flex flex-col items-center">
                         <Phone className="h-8 w-8 mb-3" />
                         <h3 className="text-lg font-semibold mb-2">Main Line</h3>
-                        <p className="opacity-90">+6 011 1300-1410</p>
+                        <p className="opacity-90">Elitas KL: +60 11 1300 1410</p>
                     </div>
                     <div className="flex flex-col items-center">
-                        <Clock className="h-8 w-8 mb-3" />
-                        <h3 className="text-lg font-semibold mb-2">Emergency Support</h3>
-                        <p className="opacity-90">24/7 Available</p>
+                        <Phone className="h-8 w-8 mb-3" />
+                        <h3 className="text-lg font-semibold mb-2">Other Branch Line</h3>
+                        <p className="opacity-90">Elitas Cheras: +60 12 882 0937</p>
+                        <p className="opacity-90">Elitas Binjai: +60 10 861 8505</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Mail className="h-8 w-8 mb-3" />
