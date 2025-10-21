@@ -4,7 +4,6 @@ interface Services {
     title: string;
     description: string;
     icon?: string;
-    features: string[];
     href?: string;
 }
 

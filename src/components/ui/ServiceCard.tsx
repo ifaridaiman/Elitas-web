@@ -7,7 +7,6 @@ interface ServiceCardProps {
   title: string;
   description: string;
   icon?: string;
-  features: string[];
   href?: string;
 }
 
@@ -15,7 +14,6 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
   description,
   icon,
-  features,
   href
 }) => {
   const { getIcon } = useServiceIcon();

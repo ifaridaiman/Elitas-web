@@ -3,86 +3,52 @@
         {
             "title": "General Health Check-ups and Treatment",
             "description": "Providing diagnosis and treatment for various health issues in adults and children.",
-            "icon": "Stethoscope",
-            "features": [
-                "General Health Check-ups and Treatment",
-                "Blood and Urine Tests",
-                "Heart Checks and ECG"
-            ]
+            "icon": "Stethoscope"
         },
         {
             "title": "Blood and Urine Tests",
             "description": "Conducting a range of laboratory tests for comprehensive health assessments.",
-            "icon": "Search",
-            "features": [
-                "Cancer Screening",
-                "Food Handler Health Checks"
-            ]
+            "icon": "Search"
         },
         {
             "title": "Fertility Issues and Family Planning",
             "description": "Offering advice and treatment for fertility concerns and family planning.",
-            "icon": "Baby",
-            "features": [
-                "Fertility Issues and Family Planning",
-                "Maternal and Child Health Check-ups"
-            ]
+            "icon": "Baby"
         },
         {
             "title": "Cancer Screening",
             "description": "Screening programs for the early detection of various types of cancer.",
-            "icon": "Briefcase",
-            "features": [
-                "Provide Health Checks for applicants of GDL, PSV, and E-hailing licenses"
-            ]
+            "icon": "Activity"
         },
         {
             "title": "Hajj and Umrah Services",
-            "description": "Providing health checks and vaccinations for Ha j and Umrah pilgrims",
-            "icon": "Scissors",
-            "features": [
-                "Minor Surgery"
-            ]
+            "description": "Providing health checks and vaccinations for Hajj and Umrah pilgrims",
+            "icon": "Plane"
         },
         {
             "title": "Heart Checks and ECG",
             "description": "Performing heart examinations to assess cardiovascular health",
-            "icon": "Plane",
-            "features": [
-                "Hajj and Umrah Services"
-            ]
+            "icon": "HeartPulse"
         },
         {
             "title": "Food Handler Health Cheks",
             "description": "Performing heart examinations to assess cardiovascular health",
-            "icon": "Plane",
-            "features": [
-                "Hajj and Umrah Services"
-            ]
+            "icon": "ChefHat"
         },
         {
             "title": "LIcense Checks for GDL, PSV, and E-hailing",
             "description": "Providing health checks for applicants of GDL, PSV and e-hailing licenses.",
-            "icon": "Plane",
-            "features": [
-                "Hajj and Umrah Services"
-            ]
+            "icon": "CarFront"
         },
         {
             "title": "Minor Surgery",
             "description": "Performing minor surgical procedures wuth a focus on patient safety.",
-                "icon": "Scissors",
-            "features": [
-                "Hajj and Umrah Services"
-            ]
+            "icon": "Scissors"
         },
         {
             "title": "Maternal and Child Health Check-ups and Vaccinations",
             "description": "Offering health checks for mothers and children, along with vaccination services",
-                "icon": "Baby",
-            "features": [
-                "Hajj and Umrah Services"
-            ]
+            "icon": "Baby"
         }
     ]
 }
