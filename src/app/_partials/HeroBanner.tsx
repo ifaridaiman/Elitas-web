@@ -93,7 +93,7 @@ const HeroBanner = () => {
               </div> */}
               <div className="text-center">
                 <div className="text-3xl font-bold text-healthcare-primary">
-                  3
+                  4
                 </div>
                 <div className="text-sm text-foreground/70">
                   Clinic Locations
