@@ -21,7 +21,7 @@ const QuickInfo = () => {
                     <div className="flex flex-col items-center">
                         <Mail className="h-8 w-8 mb-3" />
                         <h3 className="text-lg font-semibold mb-2">General Inquiries</h3>
-                        <p className="opacity-90">info@elitasclinic.com</p>
+                        <p className="opacity-90">elitasclinic@gmail.com</p>
                     </div>
                 </div>
             </div>

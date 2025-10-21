@@ -4,9 +4,9 @@
         {
             "id": 1,
             "name": "Elitas Clinic - CIMB Hub",
-            "address": "L2-O3A, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+            "address": "PGF-02, PODIUM GROUND FLOOR, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
             "phone": "+601113001410",
-            "email": "cimbhub@elitasclinic.com",
+            "email": "elitasclinic@gmail.com",
             "hours": {
                 "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
                 "saturday": "Saturday: Closed",
@@ -24,7 +24,7 @@
             "name": "Elitas Clinic - Bandar Sri Permaisuri",
             "address": "38-G, Jalan Sri Permaisuri 9, Bandar Sri Permaisuri, 56000 Cheras, Wilayah Persekutuan Kuala Lumpur",
             "phone": "+60128820937",
-            "email": "cheras@elitasclinic.com",
+            "email": "elitascheras@gmail.com",
             "hours": {
                 "weekdays": "Monday - Friday: 8:00 AM - 10:00 PM",
                 "saturday": "Saturday: 8:00 AM - 10:00 PM",
@@ -40,8 +40,8 @@
             "id": 3,
             "name": "Elitas Clinic - Menara Binjai",
             "address": "Unit 5-02, Menara Binjai, No.2 Jalan Binjai, 50450 Kuala Lumpur, Wilayan Persekutuan, Kuala Lumpur",
-            "phone": "+6 011 1300-1410",
-            "email": "menarabinjai@elitasclinic.com",
+            "phone": "+6 010 861-8505",
+            "email": "elitas.binjai@gmail.com",
             "hours": {
                 "weekdays": "Monday - Friday: 8:30 AM - 5.30 PM",
                 "saturday": "Saturday: Closed",
@@ -58,7 +58,7 @@
             "name": "Elitas Clinic - Menara PNB",
             "address": "L26-04, 26TH FLOOR, MENARA PNB, JALAN TUN RAZAK, 50400, KUALA LUMPUR",
             "phone": "+6 0103035398",
-            "email": "menarapnb@elitasclinic.com",
+            "email": "elitaspnb@gmail.com",
             "hours": {
                 "weekdays": "Monday - Friday: 8:00 AM - 5:00 PM",
                 "saturday": "Saturday: Closed",
