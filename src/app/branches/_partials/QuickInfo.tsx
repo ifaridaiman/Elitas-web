@@ -17,6 +17,7 @@ const QuickInfo = () => {
                         <h3 className="text-lg font-semibold mb-2">Other Branch Line</h3>
                         <p className="opacity-90">Elitas Cheras: +60 12 882 0937</p>
                         <p className="opacity-90">Elitas Binjai: +60 10 861 8505</p>
+                        <p className="opacity-90">Elitas PNB: +6 010 303-5398</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Mail className="h-8 w-8 mb-3" />
