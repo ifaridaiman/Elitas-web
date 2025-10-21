@@ -52,6 +52,23 @@
                 "Health Screening",
                 "Women's Wellness"
             ]
+        },
+        {
+            "id": 4,
+            "name": "Elitas Clinic - Menara PNB",
+            "address": "L26-04, 26TH FLOOR, MENARA PNB, JALAN TUN RAZAK, 50400, KUALA LUMPUR",
+            "phone": "+6 0103035398",
+            "email": "menarapnb@elitasclinic.com",
+            "hours": {
+                "weekdays": "Monday - Friday: 8:00 AM - 5:00 PM",
+                "saturday": "Saturday: Closed",
+                "sunday": "Sunday: Closed"
+            },
+            "services": [
+                "General Health",
+                "Health Screening",
+                "Women's Wellness"
+            ]
         }
     ]
 }
