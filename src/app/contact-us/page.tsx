@@ -90,8 +90,7 @@ const ContactUs = () => {
                     Main Location
                   </h3>
                   <p className="text-foreground/80">
-                    L2-O3A, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250
-                    Kuala Lumpur, Malaysia
+                    PGF-02, Podium Ground Floor, CIMB Hub, 26, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia
                   </p>
                 </div>
               </div>
@@ -106,10 +105,10 @@ const ContactUs = () => {
                     Operating Hours
                   </h3>
                   <p className="text-foreground/80">
-                    Mon - Fri: 8:00 AM - 10:00 PM
+                    Mon - Fri: 8:00 AM - 06:00 PM
                   </p>
                   <p className="text-foreground/80">
-                    Saturday: 9:00 AM - 4:00 PM
+                    Saturday: Closed
                   </p>
                   <p className="text-foreground/80">Sunday: Closed</p>
                 </div>
